@@ -135,8 +135,8 @@
   </div>
   <div class="endpoint">
     <span class="method">GET</span>
-    <a href="api/v1/applianceType.json">/api/v1/applianceType.json</a>
-    — 詳細機種(電気自動車・エコキュート・エネファームなど)のマスタ
+    <a href="api/v1/equip.json">/api/v1/equip.json</a>
+    — 機器マスタ(大分類/中分類/小分類と親子関係、エネルギー区分)の一覧
   </div>
   <div class="endpoint">
     <span class="method">GET</span>
@@ -175,8 +175,8 @@
   </div>
   <div class="endpoint">
     <span class="method">GET</span>
-    <a href="api/v1/applianceType.csv">/api/v1/applianceType.csv</a>
-    — applianceType.json の元CSV(生データ)
+    <a href="api/v1/equips.txt">/api/v1/equips.txt</a>
+    — equip.json の元データ(生テキスト)
   </div>
 
   <h2>使い方</h2>
@@ -238,18 +238,28 @@
     <code>energycost.json</code>の<code>code</code>は<code>energy.json</code>の<code>code</code>に接尾辞<code>p</code>(price)を付けた対応関係になっています(例: <code>elect</code> ⇔ <code>electp</code>)。
   </p>
 
-  <h2>applianceCategory.json / applianceType.json のフィールド</h2>
+  <h2>applianceCategory.json のフィールド</h2>
   <table>
     <tr><th>フィールド</th><th>説明</th></tr>
     <tr><td><code>code</code></td><td>コード</td></tr>
     <tr><td><code>title</code></td><td>名称</td></tr>
-    <tr><td><code>cons</code></td><td>(applianceCategoryのみ)対応する<code>cons.json</code>の<code>code</code></td></tr>
-    <tr><td><code>categoryCode</code></td><td>(applianceTypeのみ)所属する<code>applianceCategory.json</code>の<code>code</code></td></tr>
-    <tr><td><code>energyCode</code></td><td>(applianceTypeのみ)主に消費する<code>energy.json</code>の<code>code</code>。太陽熱温水器など燃料を購入しない機種はnull</td></tr>
+    <tr><td><code>cons</code></td><td>対応する<code>cons.json</code>の<code>code</code></td></tr>
+  </table>
+
+  <h2>equip.json のフィールド</h2>
+  <table>
+    <tr><th>フィールド</th><th>説明</th></tr>
+    <tr><td><code>id</code></td><td>機器ID(文字列)</td></tr>
+    <tr><td><code>title</code></td><td>機器名</td></tr>
+    <tr><td><code>level</code></td><td>階層レベル(1:大分類, 2:中分類, 3:小分類)</td></tr>
+    <tr><td><code>parentId</code></td><td>親項目のID。大分類はnull</td></tr>
+    <tr><td><code>level1Id</code></td><td>所属する大分類ID</td></tr>
+    <tr><td><code>level2Id</code></td><td>所属する中分類ID。大分類はnull</td></tr>
+    <tr><td><code>energyFlag</code></td><td>エネルギー区分(1/2)。空の場合は上位カテゴリから継承した解決済み値</td></tr>
   </table>
   <p style="color:var(--muted)">
-    <code>applianceType.json</code>の<code>title</code>は入力項目(<code>input.json</code>の給湯器の種類・車の種類・照明の種類など)や対策項目(<code>measures.json</code>)に登場する既存の名称に揃えています。
-    網羅性より既存データとの整合性を優先しているため、家庭にある全ての機種を尽くしているわけではありません。
+    <code>equip.json</code>は<code>equips.txt</code>をもとに、階層とエネルギー区分の継承を解決した配列です。
+    入力アプリではこの階層情報を使って段階選択UI(大分類→中分類→小分類)を構築できます。
   </p>
 
   <h2>更新方法</h2>
