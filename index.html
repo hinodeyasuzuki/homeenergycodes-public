@@ -145,6 +145,16 @@
   </div>
   <div class="endpoint">
     <span class="method">GET</span>
+    <a href="input/saved-input.schema.json">/input/saved-input.schema.json</a>
+    — 保存データ(JSON)の機械可読スキーマ(JSON Schema)
+  </div>
+  <div class="endpoint">
+    <span class="method">GET</span>
+    <a href="input/saved-input-format.md">/input/saved-input-format.md</a>
+    — 保存データ(JSON)の定義と解説
+  </div>
+  <div class="endpoint">
+    <span class="method">GET</span>
     <a href="api/v1/input.csv">/api/v1/input.csv</a>
     — input.json の元CSV(生データ)
   </div>
@@ -264,6 +274,13 @@
 
   <h2>更新方法</h2>
   <p>このAPIは <code>input.csv</code> / <code>measures.csv</code> を正データとし、<code>build.py</code> で <code>docs/api/v1/</code> 配下のJSONを生成しています。CSVを更新した場合は <code>python3 build.py</code> を再実行してからコミット・公開してください。</p>
+
+  <h2>保存形式(JSON)の定義</h2>
+  <p>入力アプリが保存/エクスポートするJSON形式は、次の2つで公開しています。</p>
+  <ul>
+    <li><a href="input/saved-input-format.md">/input/saved-input-format.md</a> — 人が読むための定義と解説</li>
+    <li><a href="input/saved-input.schema.json">/input/saved-input.schema.json</a> — ツールで検証するためのJSON Schema</li>
+  </ul>
 
   <footer>
     Home Energy Codes / 家庭の省エネ診断 基本項目API — 生成日時は <a href="api/v1/meta.json">meta.json</a> を参照
