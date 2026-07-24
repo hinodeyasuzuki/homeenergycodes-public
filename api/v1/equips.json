@@ -1,0 +1,3701 @@
+[
+  {
+    "id": "100",
+    "title": "家事用機器・用品",
+    "level": 1,
+    "parentId": null,
+    "level1Id": "100",
+    "level2Id": null,
+    "energyFlag": "1"
+  },
+  {
+    "id": "110",
+    "title": "調理機器",
+    "level": 2,
+    "parentId": "100",
+    "level1Id": "100",
+    "level2Id": "110",
+    "energyFlag": "1"
+  },
+  {
+    "id": "111",
+    "title": "レンジ・コンロ",
+    "level": 3,
+    "parentId": "110",
+    "level1Id": "100",
+    "level2Id": "110",
+    "energyFlag": "1"
+  },
+  {
+    "id": "112",
+    "title": "電気調理鍋・フライヤー",
+    "level": 3,
+    "parentId": "110",
+    "level1Id": "100",
+    "level2Id": "110",
+    "energyFlag": "1"
+  },
+  {
+    "id": "113",
+    "title": "ホットプレート・グリルパン",
+    "level": 3,
+    "parentId": "110",
+    "level1Id": "100",
+    "level2Id": "110",
+    "energyFlag": "1"
+  },
+  {
+    "id": "114",
+    "title": "冷蔵庫",
+    "level": 3,
+    "parentId": "110",
+    "level1Id": "100",
+    "level2Id": "110",
+    "energyFlag": "1"
+  },
+  {
+    "id": "115",
+    "title": "冷凍庫",
+    "level": 3,
+    "parentId": "110",
+    "level1Id": "100",
+    "level2Id": "110",
+    "energyFlag": "1"
+  },
+  {
+    "id": "116",
+    "title": "炊飯器",
+    "level": 3,
+    "parentId": "110",
+    "level1Id": "100",
+    "level2Id": "110",
+    "energyFlag": "1"
+  },
+  {
+    "id": "117",
+    "title": "電子レンジ",
+    "level": 3,
+    "parentId": "110",
+    "level1Id": "100",
+    "level2Id": "110",
+    "energyFlag": "1"
+  },
+  {
+    "id": "118",
+    "title": "オーブン",
+    "level": 3,
+    "parentId": "110",
+    "level1Id": "100",
+    "level2Id": "110",
+    "energyFlag": "1"
+  },
+  {
+    "id": "119",
+    "title": "電気ケトル",
+    "level": 3,
+    "parentId": "110",
+    "level1Id": "100",
+    "level2Id": "110",
+    "energyFlag": "1"
+  },
+  {
+    "id": "121",
+    "title": "電気ポット",
+    "level": 3,
+    "parentId": "110",
+    "level1Id": "100",
+    "level2Id": "110",
+    "energyFlag": "1"
+  },
+  {
+    "id": "122",
+    "title": "コーヒーメーカー",
+    "level": 3,
+    "parentId": "110",
+    "level1Id": "100",
+    "level2Id": "110",
+    "energyFlag": "1"
+  },
+  {
+    "id": "123",
+    "title": "ジューサー・ミキサー",
+    "level": 3,
+    "parentId": "110",
+    "level1Id": "100",
+    "level2Id": "110",
+    "energyFlag": "1"
+  },
+  {
+    "id": "124",
+    "title": "トースター",
+    "level": 3,
+    "parentId": "110",
+    "level1Id": "100",
+    "level2Id": "110",
+    "energyFlag": "1"
+  },
+  {
+    "id": "125",
+    "title": "フードプロセッサー",
+    "level": 3,
+    "parentId": "110",
+    "level1Id": "100",
+    "level2Id": "110",
+    "energyFlag": "1"
+  },
+  {
+    "id": "126",
+    "title": "ホームベーカリー",
+    "level": 3,
+    "parentId": "110",
+    "level1Id": "100",
+    "level2Id": "110",
+    "energyFlag": "1"
+  },
+  {
+    "id": "127",
+    "title": "生ごみ処理機",
+    "level": 3,
+    "parentId": "110",
+    "level1Id": "100",
+    "level2Id": "110",
+    "energyFlag": "1"
+  },
+  {
+    "id": "128",
+    "title": "食器洗い機・乾燥機",
+    "level": 3,
+    "parentId": "110",
+    "level1Id": "100",
+    "level2Id": "110",
+    "energyFlag": "1"
+  },
+  {
+    "id": "130",
+    "title": "調理器具",
+    "level": 2,
+    "parentId": "100",
+    "level1Id": "100",
+    "level2Id": "130",
+    "energyFlag": "2"
+  },
+  {
+    "id": "131",
+    "title": "鍋",
+    "level": 3,
+    "parentId": "130",
+    "level1Id": "100",
+    "level2Id": "130",
+    "energyFlag": "2"
+  },
+  {
+    "id": "132",
+    "title": "フライパン",
+    "level": 3,
+    "parentId": "130",
+    "level1Id": "100",
+    "level2Id": "130",
+    "energyFlag": "2"
+  },
+  {
+    "id": "133",
+    "title": "やかん",
+    "level": 3,
+    "parentId": "130",
+    "level1Id": "100",
+    "level2Id": "130",
+    "energyFlag": "2"
+  },
+  {
+    "id": "134",
+    "title": "包丁",
+    "level": 3,
+    "parentId": "130",
+    "level1Id": "100",
+    "level2Id": "130",
+    "energyFlag": "2"
+  },
+  {
+    "id": "135",
+    "title": "まな板",
+    "level": 3,
+    "parentId": "130",
+    "level1Id": "100",
+    "level2Id": "130",
+    "energyFlag": "2"
+  },
+  {
+    "id": "136",
+    "title": "ボウル",
+    "level": 3,
+    "parentId": "130",
+    "level1Id": "100",
+    "level2Id": "130",
+    "energyFlag": "2"
+  },
+  {
+    "id": "137",
+    "title": "ザル",
+    "level": 3,
+    "parentId": "130",
+    "level1Id": "100",
+    "level2Id": "130",
+    "energyFlag": "2"
+  },
+  {
+    "id": "138",
+    "title": "トング",
+    "level": 3,
+    "parentId": "130",
+    "level1Id": "100",
+    "level2Id": "130",
+    "energyFlag": "2"
+  },
+  {
+    "id": "139",
+    "title": "お玉",
+    "level": 3,
+    "parentId": "130",
+    "level1Id": "100",
+    "level2Id": "130",
+    "energyFlag": "2"
+  },
+  {
+    "id": "141",
+    "title": "菜箸",
+    "level": 3,
+    "parentId": "130",
+    "level1Id": "100",
+    "level2Id": "130",
+    "energyFlag": "2"
+  },
+  {
+    "id": "142",
+    "title": "調理用はさみ",
+    "level": 3,
+    "parentId": "130",
+    "level1Id": "100",
+    "level2Id": "130",
+    "energyFlag": "2"
+  },
+  {
+    "id": "143",
+    "title": "ほか調理・製菓道具",
+    "level": 3,
+    "parentId": "130",
+    "level1Id": "100",
+    "level2Id": "130",
+    "energyFlag": "2"
+  },
+  {
+    "id": "144",
+    "title": "保温ポット・ピッチャー",
+    "level": 3,
+    "parentId": "130",
+    "level1Id": "100",
+    "level2Id": "130",
+    "energyFlag": "2"
+  },
+  {
+    "id": "145",
+    "title": "弁当箱・水筒",
+    "level": 3,
+    "parentId": "130",
+    "level1Id": "100",
+    "level2Id": "130",
+    "energyFlag": "2"
+  },
+  {
+    "id": "146",
+    "title": "コーヒー・ティー用品",
+    "level": 3,
+    "parentId": "130",
+    "level1Id": "100",
+    "level2Id": "130",
+    "energyFlag": "2"
+  },
+  {
+    "id": "147",
+    "title": "ワイン・酒・バー用品",
+    "level": 3,
+    "parentId": "130",
+    "level1Id": "100",
+    "level2Id": "130",
+    "energyFlag": "2"
+  },
+  {
+    "id": "148",
+    "title": "浄水器・整水器",
+    "level": 3,
+    "parentId": "130",
+    "level1Id": "100",
+    "level2Id": "130",
+    "energyFlag": "2"
+  },
+  {
+    "id": "149",
+    "title": "保存容器",
+    "level": 3,
+    "parentId": "130",
+    "level1Id": "100",
+    "level2Id": "130",
+    "energyFlag": "2"
+  },
+  {
+    "id": "150",
+    "title": "食器類",
+    "level": 2,
+    "parentId": "100",
+    "level1Id": "100",
+    "level2Id": "150",
+    "energyFlag": "2"
+  },
+  {
+    "id": "151",
+    "title": "茶碗",
+    "level": 3,
+    "parentId": "150",
+    "level1Id": "100",
+    "level2Id": "150",
+    "energyFlag": "2"
+  },
+  {
+    "id": "152",
+    "title": "お椀",
+    "level": 3,
+    "parentId": "150",
+    "level1Id": "100",
+    "level2Id": "150",
+    "energyFlag": "2"
+  },
+  {
+    "id": "153",
+    "title": "皿",
+    "level": 3,
+    "parentId": "150",
+    "level1Id": "100",
+    "level2Id": "150",
+    "energyFlag": "2"
+  },
+  {
+    "id": "154",
+    "title": "カトラリー（箸・フォーク・スプーン）",
+    "level": 3,
+    "parentId": "150",
+    "level1Id": "100",
+    "level2Id": "150",
+    "energyFlag": "2"
+  },
+  {
+    "id": "155",
+    "title": "カップ",
+    "level": 3,
+    "parentId": "150",
+    "level1Id": "100",
+    "level2Id": "150",
+    "energyFlag": "2"
+  },
+  {
+    "id": "156",
+    "title": "グラス",
+    "level": 3,
+    "parentId": "150",
+    "level1Id": "100",
+    "level2Id": "150",
+    "energyFlag": "2"
+  },
+  {
+    "id": "157",
+    "title": "湯呑み",
+    "level": 3,
+    "parentId": "150",
+    "level1Id": "100",
+    "level2Id": "150",
+    "energyFlag": "2"
+  },
+  {
+    "id": "158",
+    "title": "お盆",
+    "level": 3,
+    "parentId": "150",
+    "level1Id": "100",
+    "level2Id": "150",
+    "energyFlag": "2"
+  },
+  {
+    "id": "159",
+    "title": "その他食器",
+    "level": 3,
+    "parentId": "150",
+    "level1Id": "100",
+    "level2Id": "150",
+    "energyFlag": "2"
+  },
+  {
+    "id": "160",
+    "title": "洗濯・衣類用機器",
+    "level": 2,
+    "parentId": "100",
+    "level1Id": "100",
+    "level2Id": "160",
+    "energyFlag": "1"
+  },
+  {
+    "id": "161",
+    "title": "洗濯機",
+    "level": 3,
+    "parentId": "160",
+    "level1Id": "100",
+    "level2Id": "160",
+    "energyFlag": "1"
+  },
+  {
+    "id": "162",
+    "title": "衣類乾燥機",
+    "level": 3,
+    "parentId": "160",
+    "level1Id": "100",
+    "level2Id": "160",
+    "energyFlag": "1"
+  },
+  {
+    "id": "163",
+    "title": "アイロン",
+    "level": 3,
+    "parentId": "160",
+    "level1Id": "100",
+    "level2Id": "160",
+    "energyFlag": "1"
+  },
+  {
+    "id": "164",
+    "title": "衣類スチーマ",
+    "level": 3,
+    "parentId": "160",
+    "level1Id": "100",
+    "level2Id": "160",
+    "energyFlag": "1"
+  },
+  {
+    "id": "165",
+    "title": "ズボンプレッサー",
+    "level": 3,
+    "parentId": "160",
+    "level1Id": "100",
+    "level2Id": "160",
+    "energyFlag": "1"
+  },
+  {
+    "id": "166",
+    "title": "ミシン",
+    "level": 3,
+    "parentId": "160",
+    "level1Id": "100",
+    "level2Id": "160",
+    "energyFlag": "1"
+  },
+  {
+    "id": "167",
+    "title": "風呂水ポンプ",
+    "level": 3,
+    "parentId": "160",
+    "level1Id": "100",
+    "level2Id": "160",
+    "energyFlag": "1"
+  },
+  {
+    "id": "170",
+    "title": "洗濯・衣類用品",
+    "level": 2,
+    "parentId": "100",
+    "level1Id": "100",
+    "level2Id": "170",
+    "energyFlag": "2"
+  },
+  {
+    "id": "171",
+    "title": "衣類ハンガー",
+    "level": 3,
+    "parentId": "170",
+    "level1Id": "100",
+    "level2Id": "170",
+    "energyFlag": "2"
+  },
+  {
+    "id": "172",
+    "title": "洗濯ばさみ",
+    "level": 3,
+    "parentId": "170",
+    "level1Id": "100",
+    "level2Id": "170",
+    "energyFlag": "2"
+  },
+  {
+    "id": "173",
+    "title": "ランドリーネット",
+    "level": 3,
+    "parentId": "170",
+    "level1Id": "100",
+    "level2Id": "170",
+    "energyFlag": "2"
+  },
+  {
+    "id": "174",
+    "title": "物干し竿",
+    "level": 3,
+    "parentId": "170",
+    "level1Id": "100",
+    "level2Id": "170",
+    "energyFlag": "2"
+  },
+  {
+    "id": "175",
+    "title": "物干しハンガー・ラック",
+    "level": 3,
+    "parentId": "170",
+    "level1Id": "100",
+    "level2Id": "170",
+    "energyFlag": "2"
+  },
+  {
+    "id": "176",
+    "title": "アイロン台",
+    "level": 3,
+    "parentId": "170",
+    "level1Id": "100",
+    "level2Id": "170",
+    "energyFlag": "2"
+  },
+  {
+    "id": "180",
+    "title": "掃除機器",
+    "level": 2,
+    "parentId": "100",
+    "level1Id": "100",
+    "level2Id": "180",
+    "energyFlag": "1"
+  },
+  {
+    "id": "181",
+    "title": "掃除機",
+    "level": 3,
+    "parentId": "180",
+    "level1Id": "100",
+    "level2Id": "180",
+    "energyFlag": "1"
+  },
+  {
+    "id": "182",
+    "title": "ハンディクリーナー",
+    "level": 3,
+    "parentId": "180",
+    "level1Id": "100",
+    "level2Id": "180",
+    "energyFlag": "1"
+  },
+  {
+    "id": "183",
+    "title": "布団クリーナー",
+    "level": 3,
+    "parentId": "180",
+    "level1Id": "100",
+    "level2Id": "180",
+    "energyFlag": "1"
+  },
+  {
+    "id": "190",
+    "title": "掃除用品",
+    "level": 2,
+    "parentId": "100",
+    "level1Id": "100",
+    "level2Id": "190",
+    "energyFlag": "2"
+  },
+  {
+    "id": "191",
+    "title": "モップ・デッキブラシ",
+    "level": 3,
+    "parentId": "190",
+    "level1Id": "100",
+    "level2Id": "190",
+    "energyFlag": "2"
+  },
+  {
+    "id": "192",
+    "title": "ブラシ",
+    "level": 3,
+    "parentId": "190",
+    "level1Id": "100",
+    "level2Id": "190",
+    "energyFlag": "2"
+  },
+  {
+    "id": "193",
+    "title": "スクイジー・ワイパー",
+    "level": 3,
+    "parentId": "190",
+    "level1Id": "100",
+    "level2Id": "190",
+    "energyFlag": "2"
+  },
+  {
+    "id": "194",
+    "title": "粘着式クリーナー",
+    "level": 3,
+    "parentId": "190",
+    "level1Id": "100",
+    "level2Id": "190",
+    "energyFlag": "2"
+  },
+  {
+    "id": "195",
+    "title": "ほうき・ちりとり",
+    "level": 3,
+    "parentId": "190",
+    "level1Id": "100",
+    "level2Id": "190",
+    "energyFlag": "2"
+  },
+  {
+    "id": "196",
+    "title": "はたき",
+    "level": 3,
+    "parentId": "190",
+    "level1Id": "100",
+    "level2Id": "190",
+    "energyFlag": "2"
+  },
+  {
+    "id": "197",
+    "title": "バケツ",
+    "level": 3,
+    "parentId": "190",
+    "level1Id": "100",
+    "level2Id": "190",
+    "energyFlag": "2"
+  },
+  {
+    "id": "198",
+    "title": "コンポスト",
+    "level": 3,
+    "parentId": "190",
+    "level1Id": "100",
+    "level2Id": "190",
+    "energyFlag": "2"
+  },
+  {
+    "id": "199",
+    "title": "ごみ箱",
+    "level": 3,
+    "parentId": "190",
+    "level1Id": "100",
+    "level2Id": "190",
+    "energyFlag": "2"
+  },
+  {
+    "id": "200",
+    "title": "生活用機器・用品",
+    "level": 1,
+    "parentId": null,
+    "level1Id": "200",
+    "level2Id": null,
+    "energyFlag": "1"
+  },
+  {
+    "id": "210",
+    "title": "冷暖房・空調",
+    "level": 2,
+    "parentId": "200",
+    "level1Id": "200",
+    "level2Id": "210",
+    "energyFlag": "1"
+  },
+  {
+    "id": "211",
+    "title": "エアコン",
+    "level": 3,
+    "parentId": "210",
+    "level1Id": "200",
+    "level2Id": "210",
+    "energyFlag": "1"
+  },
+  {
+    "id": "212",
+    "title": "空気清浄器",
+    "level": 3,
+    "parentId": "210",
+    "level1Id": "200",
+    "level2Id": "210",
+    "energyFlag": "1"
+  },
+  {
+    "id": "213",
+    "title": "冷風扇",
+    "level": 3,
+    "parentId": "210",
+    "level1Id": "200",
+    "level2Id": "210",
+    "energyFlag": "1"
+  },
+  {
+    "id": "214",
+    "title": "扇風機",
+    "level": 3,
+    "parentId": "210",
+    "level1Id": "200",
+    "level2Id": "210",
+    "energyFlag": "1"
+  },
+  {
+    "id": "215",
+    "title": "サーキュレーター",
+    "level": 3,
+    "parentId": "210",
+    "level1Id": "200",
+    "level2Id": "210",
+    "energyFlag": "1"
+  },
+  {
+    "id": "216",
+    "title": "加湿器、除湿器",
+    "level": 3,
+    "parentId": "210",
+    "level1Id": "200",
+    "level2Id": "210",
+    "energyFlag": "1"
+  },
+  {
+    "id": "217",
+    "title": "こたつ",
+    "level": 3,
+    "parentId": "210",
+    "level1Id": "200",
+    "level2Id": "210",
+    "energyFlag": "1"
+  },
+  {
+    "id": "218",
+    "title": "オイルヒーター",
+    "level": 3,
+    "parentId": "210",
+    "level1Id": "200",
+    "level2Id": "210",
+    "energyFlag": "1"
+  },
+  {
+    "id": "219",
+    "title": "ストーブ",
+    "level": 3,
+    "parentId": "210",
+    "level1Id": "200",
+    "level2Id": "210",
+    "energyFlag": "1"
+  },
+  {
+    "id": "221",
+    "title": "ファンヒーター",
+    "level": 3,
+    "parentId": "210",
+    "level1Id": "200",
+    "level2Id": "210",
+    "energyFlag": "1"
+  },
+  {
+    "id": "222",
+    "title": "ホットカーペット",
+    "level": 3,
+    "parentId": "210",
+    "level1Id": "200",
+    "level2Id": "210",
+    "energyFlag": "1"
+  },
+  {
+    "id": "223",
+    "title": "ホットマット",
+    "level": 3,
+    "parentId": "210",
+    "level1Id": "200",
+    "level2Id": "210",
+    "energyFlag": "1"
+  },
+  {
+    "id": "224",
+    "title": "電気あんか",
+    "level": 3,
+    "parentId": "210",
+    "level1Id": "200",
+    "level2Id": "210",
+    "energyFlag": "1"
+  },
+  {
+    "id": "225",
+    "title": "電気ヒーター",
+    "level": 3,
+    "parentId": "210",
+    "level1Id": "200",
+    "level2Id": "210",
+    "energyFlag": "1"
+  },
+  {
+    "id": "226",
+    "title": "電気毛布、電気ひざ掛け",
+    "level": 3,
+    "parentId": "210",
+    "level1Id": "200",
+    "level2Id": "210",
+    "energyFlag": "1"
+  },
+  {
+    "id": "227",
+    "title": "ふとん乾燥機",
+    "level": 3,
+    "parentId": "210",
+    "level1Id": "200",
+    "level2Id": "210",
+    "energyFlag": "1"
+  },
+  {
+    "id": "228",
+    "title": "換気扇",
+    "level": 3,
+    "parentId": "210",
+    "level1Id": "200",
+    "level2Id": "210",
+    "energyFlag": "1"
+  },
+  {
+    "id": "229",
+    "title": "浴室乾燥暖房機",
+    "level": 3,
+    "parentId": "210",
+    "level1Id": "200",
+    "level2Id": "210",
+    "energyFlag": "1"
+  },
+  {
+    "id": "230",
+    "title": "照明器具",
+    "level": 2,
+    "parentId": "200",
+    "level1Id": "200",
+    "level2Id": "230",
+    "energyFlag": "1"
+  },
+  {
+    "id": "231",
+    "title": "シーリングライト",
+    "level": 3,
+    "parentId": "230",
+    "level1Id": "200",
+    "level2Id": "230",
+    "energyFlag": "1"
+  },
+  {
+    "id": "232",
+    "title": "ダウンライト",
+    "level": 3,
+    "parentId": "230",
+    "level1Id": "200",
+    "level2Id": "230",
+    "energyFlag": "1"
+  },
+  {
+    "id": "233",
+    "title": "間接灯",
+    "level": 3,
+    "parentId": "230",
+    "level1Id": "200",
+    "level2Id": "230",
+    "energyFlag": "1"
+  },
+  {
+    "id": "234",
+    "title": "スタンド",
+    "level": 3,
+    "parentId": "230",
+    "level1Id": "200",
+    "level2Id": "230",
+    "energyFlag": "1"
+  },
+  {
+    "id": "240",
+    "title": "通信用機器",
+    "level": 2,
+    "parentId": "200",
+    "level1Id": "200",
+    "level2Id": "240",
+    "energyFlag": "1"
+  },
+  {
+    "id": "241",
+    "title": "スマートフォン",
+    "level": 3,
+    "parentId": "240",
+    "level1Id": "200",
+    "level2Id": "240",
+    "energyFlag": "1"
+  },
+  {
+    "id": "242",
+    "title": "固定電話",
+    "level": 3,
+    "parentId": "240",
+    "level1Id": "200",
+    "level2Id": "240",
+    "energyFlag": "1"
+  },
+  {
+    "id": "243",
+    "title": "FAX",
+    "level": 3,
+    "parentId": "240",
+    "level1Id": "200",
+    "level2Id": "240",
+    "energyFlag": "1"
+  },
+  {
+    "id": "244",
+    "title": "モデム",
+    "level": 3,
+    "parentId": "240",
+    "level1Id": "200",
+    "level2Id": "240",
+    "energyFlag": "1"
+  },
+  {
+    "id": "245",
+    "title": "無線LANルーター",
+    "level": 3,
+    "parentId": "240",
+    "level1Id": "200",
+    "level2Id": "240",
+    "energyFlag": "1"
+  },
+  {
+    "id": "246",
+    "title": "モバイルルーター",
+    "level": 3,
+    "parentId": "240",
+    "level1Id": "200",
+    "level2Id": "240",
+    "energyFlag": "1"
+  },
+  {
+    "id": "250",
+    "title": "美容・健康用機器",
+    "level": 2,
+    "parentId": "200",
+    "level1Id": "200",
+    "level2Id": "250",
+    "energyFlag": "1"
+  },
+  {
+    "id": "251",
+    "title": "フットバス",
+    "level": 3,
+    "parentId": "250",
+    "level1Id": "200",
+    "level2Id": "250",
+    "energyFlag": "1"
+  },
+  {
+    "id": "252",
+    "title": "ヘアアイロン",
+    "level": 3,
+    "parentId": "250",
+    "level1Id": "200",
+    "level2Id": "250",
+    "energyFlag": "1"
+  },
+  {
+    "id": "253",
+    "title": "ヘアカーラー",
+    "level": 3,
+    "parentId": "250",
+    "level1Id": "200",
+    "level2Id": "250",
+    "energyFlag": "1"
+  },
+  {
+    "id": "254",
+    "title": "ヘアドライヤー",
+    "level": 3,
+    "parentId": "250",
+    "level1Id": "200",
+    "level2Id": "250",
+    "energyFlag": "1"
+  },
+  {
+    "id": "255",
+    "title": "マッサージ機",
+    "level": 3,
+    "parentId": "250",
+    "level1Id": "200",
+    "level2Id": "250",
+    "energyFlag": "1"
+  },
+  {
+    "id": "256",
+    "title": "トレーニングマシン",
+    "level": 3,
+    "parentId": "250",
+    "level1Id": "200",
+    "level2Id": "250",
+    "energyFlag": "1"
+  },
+  {
+    "id": "257",
+    "title": "美容機器",
+    "level": 3,
+    "parentId": "250",
+    "level1Id": "200",
+    "level2Id": "250",
+    "energyFlag": "1"
+  },
+  {
+    "id": "258",
+    "title": "体重計・体脂肪計",
+    "level": 3,
+    "parentId": "250",
+    "level1Id": "200",
+    "level2Id": "250",
+    "energyFlag": "1"
+  },
+  {
+    "id": "259",
+    "title": "電動歯ブラシ",
+    "level": 3,
+    "parentId": "250",
+    "level1Id": "200",
+    "level2Id": "250",
+    "energyFlag": "1"
+  },
+  {
+    "id": "261",
+    "title": "電気シェーバー",
+    "level": 3,
+    "parentId": "250",
+    "level1Id": "200",
+    "level2Id": "250",
+    "energyFlag": "1"
+  },
+  {
+    "id": "262",
+    "title": "電子体温計",
+    "level": 3,
+    "parentId": "250",
+    "level1Id": "200",
+    "level2Id": "250",
+    "energyFlag": "1"
+  },
+  {
+    "id": "263",
+    "title": "血圧計",
+    "level": 3,
+    "parentId": "250",
+    "level1Id": "200",
+    "level2Id": "250",
+    "energyFlag": "1"
+  },
+  {
+    "id": "270",
+    "title": "美容健康用品",
+    "level": 2,
+    "parentId": "200",
+    "level1Id": "200",
+    "level2Id": "270",
+    "energyFlag": "2"
+  },
+  {
+    "id": "271",
+    "title": "歯ブラシ",
+    "level": 3,
+    "parentId": "270",
+    "level1Id": "200",
+    "level2Id": "270",
+    "energyFlag": "2"
+  },
+  {
+    "id": "272",
+    "title": "体温計",
+    "level": 3,
+    "parentId": "270",
+    "level1Id": "200",
+    "level2Id": "270",
+    "energyFlag": "2"
+  },
+  {
+    "id": "273",
+    "title": "カミソリ",
+    "level": 3,
+    "parentId": "270",
+    "level1Id": "200",
+    "level2Id": "270",
+    "energyFlag": "2"
+  },
+  {
+    "id": "280",
+    "title": "時計",
+    "level": 2,
+    "parentId": "200",
+    "level1Id": "200",
+    "level2Id": "280",
+    "energyFlag": "1"
+  },
+  {
+    "id": "281",
+    "title": "置き時計・掛け時計",
+    "level": 3,
+    "parentId": "280",
+    "level1Id": "200",
+    "level2Id": "280",
+    "energyFlag": "1"
+  },
+  {
+    "id": "282",
+    "title": "スマートウォッチ",
+    "level": 3,
+    "parentId": "280",
+    "level1Id": "200",
+    "level2Id": "280",
+    "energyFlag": "1"
+  },
+  {
+    "id": "283",
+    "title": "腕時計",
+    "level": 3,
+    "parentId": "280",
+    "level1Id": "200",
+    "level2Id": "280",
+    "energyFlag": "1"
+  },
+  {
+    "id": "290",
+    "title": "電気ケーブル変換",
+    "level": 2,
+    "parentId": "200",
+    "level1Id": "200",
+    "level2Id": "290",
+    "energyFlag": "2"
+  },
+  {
+    "id": "291",
+    "title": "電源コード",
+    "level": 3,
+    "parentId": "290",
+    "level1Id": "200",
+    "level2Id": "290",
+    "energyFlag": "2"
+  },
+  {
+    "id": "292",
+    "title": "電源アダプタ",
+    "level": 3,
+    "parentId": "290",
+    "level1Id": "200",
+    "level2Id": "290",
+    "energyFlag": "2"
+  },
+  {
+    "id": "310",
+    "title": "電動工具・器具",
+    "level": 2,
+    "parentId": "200",
+    "level1Id": "200",
+    "level2Id": "310",
+    "energyFlag": "1"
+  },
+  {
+    "id": "311",
+    "title": "切断工具",
+    "level": 3,
+    "parentId": "310",
+    "level1Id": "200",
+    "level2Id": "310",
+    "energyFlag": "1"
+  },
+  {
+    "id": "312",
+    "title": "研磨工具",
+    "level": 3,
+    "parentId": "310",
+    "level1Id": "200",
+    "level2Id": "310",
+    "energyFlag": "1"
+  },
+  {
+    "id": "313",
+    "title": "切削工具",
+    "level": 3,
+    "parentId": "310",
+    "level1Id": "200",
+    "level2Id": "310",
+    "energyFlag": "1"
+  },
+  {
+    "id": "314",
+    "title": "穴あけ・締付工具",
+    "level": 3,
+    "parentId": "310",
+    "level1Id": "200",
+    "level2Id": "310",
+    "energyFlag": "1"
+  },
+  {
+    "id": "315",
+    "title": "ハンダ付け工具",
+    "level": 3,
+    "parentId": "310",
+    "level1Id": "200",
+    "level2Id": "310",
+    "energyFlag": "1"
+  },
+  {
+    "id": "316",
+    "title": "草刈り機",
+    "level": 3,
+    "parentId": "310",
+    "level1Id": "200",
+    "level2Id": "310",
+    "energyFlag": "1"
+  },
+  {
+    "id": "317",
+    "title": "高圧洗浄機",
+    "level": 3,
+    "parentId": "310",
+    "level1Id": "200",
+    "level2Id": "310",
+    "energyFlag": "1"
+  },
+  {
+    "id": "320",
+    "title": "工具",
+    "level": 2,
+    "parentId": "200",
+    "level1Id": "200",
+    "level2Id": "320",
+    "energyFlag": "2"
+  },
+  {
+    "id": "321",
+    "title": "ドライバー",
+    "level": 3,
+    "parentId": "320",
+    "level1Id": "200",
+    "level2Id": "320",
+    "energyFlag": "2"
+  },
+  {
+    "id": "322",
+    "title": "精密ドライバー",
+    "level": 3,
+    "parentId": "320",
+    "level1Id": "200",
+    "level2Id": "320",
+    "energyFlag": "2"
+  },
+  {
+    "id": "323",
+    "title": "ペンチ",
+    "level": 3,
+    "parentId": "320",
+    "level1Id": "200",
+    "level2Id": "320",
+    "energyFlag": "2"
+  },
+  {
+    "id": "324",
+    "title": "スパナ",
+    "level": 3,
+    "parentId": "320",
+    "level1Id": "200",
+    "level2Id": "320",
+    "energyFlag": "2"
+  },
+  {
+    "id": "325",
+    "title": "ニッパー",
+    "level": 3,
+    "parentId": "320",
+    "level1Id": "200",
+    "level2Id": "320",
+    "energyFlag": "2"
+  },
+  {
+    "id": "326",
+    "title": "金槌",
+    "level": 3,
+    "parentId": "320",
+    "level1Id": "200",
+    "level2Id": "320",
+    "energyFlag": "2"
+  },
+  {
+    "id": "327",
+    "title": "のこぎり",
+    "level": 3,
+    "parentId": "320",
+    "level1Id": "200",
+    "level2Id": "320",
+    "energyFlag": "2"
+  },
+  {
+    "id": "328",
+    "title": "かんな",
+    "level": 3,
+    "parentId": "320",
+    "level1Id": "200",
+    "level2Id": "320",
+    "energyFlag": "2"
+  },
+  {
+    "id": "329",
+    "title": "ほか",
+    "level": 3,
+    "parentId": "320",
+    "level1Id": "200",
+    "level2Id": "320",
+    "energyFlag": "2"
+  },
+  {
+    "id": "330",
+    "title": "非常用品",
+    "level": 2,
+    "parentId": "200",
+    "level1Id": "200",
+    "level2Id": "330",
+    "energyFlag": "1"
+  },
+  {
+    "id": "331",
+    "title": "災害用袋",
+    "level": 3,
+    "parentId": "330",
+    "level1Id": "200",
+    "level2Id": "330",
+    "energyFlag": "1"
+  },
+  {
+    "id": "332",
+    "title": "非常用水ストック",
+    "level": 3,
+    "parentId": "330",
+    "level1Id": "200",
+    "level2Id": "330",
+    "energyFlag": "1"
+  },
+  {
+    "id": "333",
+    "title": "食品ローリングストック",
+    "level": 3,
+    "parentId": "330",
+    "level1Id": "200",
+    "level2Id": "330",
+    "energyFlag": "1"
+  },
+  {
+    "id": "334",
+    "title": "懐中電灯",
+    "level": 3,
+    "parentId": "330",
+    "level1Id": "200",
+    "level2Id": "330",
+    "energyFlag": "1"
+  },
+  {
+    "id": "335",
+    "title": "消火器",
+    "level": 3,
+    "parentId": "330",
+    "level1Id": "200",
+    "level2Id": "330",
+    "energyFlag": "1"
+  },
+  {
+    "id": "336",
+    "title": "家庭用火災警報器",
+    "level": 3,
+    "parentId": "330",
+    "level1Id": "200",
+    "level2Id": "330",
+    "energyFlag": "1"
+  },
+  {
+    "id": "340",
+    "title": "生活雑貨",
+    "level": 2,
+    "parentId": "200",
+    "level1Id": "200",
+    "level2Id": "340",
+    "energyFlag": "2"
+  },
+  {
+    "id": "341",
+    "title": "傘・レインウェア",
+    "level": 3,
+    "parentId": "340",
+    "level1Id": "200",
+    "level2Id": "340",
+    "energyFlag": "2"
+  },
+  {
+    "id": "342",
+    "title": "ショッピングバッグ・キャリー",
+    "level": 3,
+    "parentId": "340",
+    "level1Id": "200",
+    "level2Id": "340",
+    "energyFlag": "2"
+  },
+  {
+    "id": "343",
+    "title": "スリッパ",
+    "level": 3,
+    "parentId": "340",
+    "level1Id": "200",
+    "level2Id": "340",
+    "energyFlag": "2"
+  },
+  {
+    "id": "344",
+    "title": "湯たんぽ",
+    "level": 3,
+    "parentId": "340",
+    "level1Id": "200",
+    "level2Id": "340",
+    "energyFlag": "2"
+  },
+  {
+    "id": "345",
+    "title": "うちわ",
+    "level": 3,
+    "parentId": "340",
+    "level1Id": "200",
+    "level2Id": "340",
+    "energyFlag": "2"
+  },
+  {
+    "id": "346",
+    "title": "風呂敷",
+    "level": 3,
+    "parentId": "340",
+    "level1Id": "200",
+    "level2Id": "340",
+    "energyFlag": "2"
+  },
+  {
+    "id": "347",
+    "title": "タオル/手ぬぐい",
+    "level": 3,
+    "parentId": "340",
+    "level1Id": "200",
+    "level2Id": "340",
+    "energyFlag": "2"
+  },
+  {
+    "id": "348",
+    "title": "バスタオル",
+    "level": 3,
+    "parentId": "340",
+    "level1Id": "200",
+    "level2Id": "340",
+    "energyFlag": "2"
+  },
+  {
+    "id": "349",
+    "title": "ハンカチ",
+    "level": 3,
+    "parentId": "340",
+    "level1Id": "200",
+    "level2Id": "340",
+    "energyFlag": "2"
+  },
+  {
+    "id": "351",
+    "title": "洗面器",
+    "level": 3,
+    "parentId": "340",
+    "level1Id": "200",
+    "level2Id": "340",
+    "energyFlag": "2"
+  },
+  {
+    "id": "352",
+    "title": "風呂マット・すのこ",
+    "level": 3,
+    "parentId": "340",
+    "level1Id": "200",
+    "level2Id": "340",
+    "energyFlag": "2"
+  },
+  {
+    "id": "353",
+    "title": "浴槽ふた",
+    "level": 3,
+    "parentId": "340",
+    "level1Id": "200",
+    "level2Id": "340",
+    "energyFlag": "2"
+  },
+  {
+    "id": "354",
+    "title": "踏み台・ステップ",
+    "level": 3,
+    "parentId": "340",
+    "level1Id": "200",
+    "level2Id": "340",
+    "energyFlag": "2"
+  },
+  {
+    "id": "355",
+    "title": "鏡",
+    "level": 3,
+    "parentId": "340",
+    "level1Id": "200",
+    "level2Id": "340",
+    "energyFlag": "2"
+  },
+  {
+    "id": "360",
+    "title": "文房具",
+    "level": 2,
+    "parentId": "200",
+    "level1Id": "200",
+    "level2Id": "360",
+    "energyFlag": "2"
+  },
+  {
+    "id": "361",
+    "title": "ペン",
+    "level": 3,
+    "parentId": "360",
+    "level1Id": "200",
+    "level2Id": "360",
+    "energyFlag": "2"
+  },
+  {
+    "id": "362",
+    "title": "はさみ",
+    "level": 3,
+    "parentId": "360",
+    "level1Id": "200",
+    "level2Id": "360",
+    "energyFlag": "2"
+  },
+  {
+    "id": "363",
+    "title": "カッター",
+    "level": 3,
+    "parentId": "360",
+    "level1Id": "200",
+    "level2Id": "360",
+    "energyFlag": "2"
+  },
+  {
+    "id": "364",
+    "title": "ノート",
+    "level": 3,
+    "parentId": "360",
+    "level1Id": "200",
+    "level2Id": "360",
+    "energyFlag": "2"
+  },
+  {
+    "id": "365",
+    "title": "定規/メジャー",
+    "level": 3,
+    "parentId": "360",
+    "level1Id": "200",
+    "level2Id": "360",
+    "energyFlag": "2"
+  },
+  {
+    "id": "366",
+    "title": "のり・テープ",
+    "level": 3,
+    "parentId": "360",
+    "level1Id": "200",
+    "level2Id": "360",
+    "energyFlag": "2"
+  },
+  {
+    "id": "367",
+    "title": "絵の具セット",
+    "level": 3,
+    "parentId": "360",
+    "level1Id": "200",
+    "level2Id": "360",
+    "energyFlag": "2"
+  },
+  {
+    "id": "368",
+    "title": "フォルダー",
+    "level": 3,
+    "parentId": "360",
+    "level1Id": "200",
+    "level2Id": "360",
+    "energyFlag": "2"
+  },
+  {
+    "id": "370",
+    "title": "保健医療",
+    "level": 2,
+    "parentId": "200",
+    "level1Id": "200",
+    "level2Id": "370",
+    "energyFlag": "2"
+  },
+  {
+    "id": "371",
+    "title": "めがね",
+    "level": 3,
+    "parentId": "370",
+    "level1Id": "200",
+    "level2Id": "370",
+    "energyFlag": "2"
+  },
+  {
+    "id": "372",
+    "title": "コンタクトレンズ",
+    "level": 3,
+    "parentId": "370",
+    "level1Id": "200",
+    "level2Id": "370",
+    "energyFlag": "2"
+  },
+  {
+    "id": "373",
+    "title": "介護用品",
+    "level": 3,
+    "parentId": "370",
+    "level1Id": "200",
+    "level2Id": "370",
+    "energyFlag": "2"
+  },
+  {
+    "id": "400",
+    "title": "教養娯楽用機器",
+    "level": 1,
+    "parentId": null,
+    "level1Id": "400",
+    "level2Id": null,
+    "energyFlag": "1"
+  },
+  {
+    "id": "410",
+    "title": "映像機器",
+    "level": 2,
+    "parentId": "400",
+    "level1Id": "400",
+    "level2Id": "410",
+    "energyFlag": "1"
+  },
+  {
+    "id": "411",
+    "title": "テレビ",
+    "level": 3,
+    "parentId": "410",
+    "level1Id": "400",
+    "level2Id": "410",
+    "energyFlag": "1"
+  },
+  {
+    "id": "412",
+    "title": "ポータブルテレビ",
+    "level": 3,
+    "parentId": "410",
+    "level1Id": "400",
+    "level2Id": "410",
+    "energyFlag": "1"
+  },
+  {
+    "id": "413",
+    "title": "ホームプロジェクター",
+    "level": 3,
+    "parentId": "410",
+    "level1Id": "400",
+    "level2Id": "410",
+    "energyFlag": "1"
+  },
+  {
+    "id": "414",
+    "title": "ビデオレコーダー・プレイヤー",
+    "level": 3,
+    "parentId": "410",
+    "level1Id": "400",
+    "level2Id": "410",
+    "energyFlag": "1"
+  },
+  {
+    "id": "420",
+    "title": "オーディオ機器",
+    "level": 2,
+    "parentId": "400",
+    "level1Id": "400",
+    "level2Id": "420",
+    "energyFlag": "1"
+  },
+  {
+    "id": "421",
+    "title": "ミニコンポ・セットコンポ",
+    "level": 3,
+    "parentId": "420",
+    "level1Id": "400",
+    "level2Id": "420",
+    "energyFlag": "1"
+  },
+  {
+    "id": "422",
+    "title": "アンプ",
+    "level": 3,
+    "parentId": "420",
+    "level1Id": "400",
+    "level2Id": "420",
+    "energyFlag": "1"
+  },
+  {
+    "id": "423",
+    "title": "スピーカー",
+    "level": 3,
+    "parentId": "420",
+    "level1Id": "400",
+    "level2Id": "420",
+    "energyFlag": "1"
+  },
+  {
+    "id": "424",
+    "title": "ラジカセ・CDラジオ",
+    "level": 3,
+    "parentId": "420",
+    "level1Id": "400",
+    "level2Id": "420",
+    "energyFlag": "1"
+  },
+  {
+    "id": "425",
+    "title": "ポータブルオーディオ",
+    "level": 3,
+    "parentId": "420",
+    "level1Id": "400",
+    "level2Id": "420",
+    "energyFlag": "1"
+  },
+  {
+    "id": "426",
+    "title": "ヘッドフォン、イヤフォン",
+    "level": 3,
+    "parentId": "420",
+    "level1Id": "400",
+    "level2Id": "420",
+    "energyFlag": "1"
+  },
+  {
+    "id": "427",
+    "title": "スマートスピーカー",
+    "level": 3,
+    "parentId": "420",
+    "level1Id": "400",
+    "level2Id": "420",
+    "energyFlag": "1"
+  },
+  {
+    "id": "430",
+    "title": "テレビゲーム機",
+    "level": 2,
+    "parentId": "400",
+    "level1Id": "400",
+    "level2Id": "430",
+    "energyFlag": "1"
+  },
+  {
+    "id": "431",
+    "title": "据え置き型テレビゲーム",
+    "level": 3,
+    "parentId": "430",
+    "level1Id": "400",
+    "level2Id": "430",
+    "energyFlag": "1"
+  },
+  {
+    "id": "432",
+    "title": "ポータブルテレビゲーム",
+    "level": 3,
+    "parentId": "430",
+    "level1Id": "400",
+    "level2Id": "430",
+    "energyFlag": "1"
+  },
+  {
+    "id": "440",
+    "title": "パソコン",
+    "level": 2,
+    "parentId": "400",
+    "level1Id": "400",
+    "level2Id": "440",
+    "energyFlag": "1"
+  },
+  {
+    "id": "441",
+    "title": "ノートパソコン",
+    "level": 3,
+    "parentId": "440",
+    "level1Id": "400",
+    "level2Id": "440",
+    "energyFlag": "1"
+  },
+  {
+    "id": "442",
+    "title": "デスクトップパソコン本体",
+    "level": 3,
+    "parentId": "440",
+    "level1Id": "400",
+    "level2Id": "440",
+    "energyFlag": "1"
+  },
+  {
+    "id": "443",
+    "title": "ディスプレイ",
+    "level": 3,
+    "parentId": "440",
+    "level1Id": "400",
+    "level2Id": "440",
+    "energyFlag": "1"
+  },
+  {
+    "id": "444",
+    "title": "タブレット端末",
+    "level": 3,
+    "parentId": "440",
+    "level1Id": "400",
+    "level2Id": "440",
+    "energyFlag": "1"
+  },
+  {
+    "id": "445",
+    "title": "プリンター",
+    "level": 3,
+    "parentId": "440",
+    "level1Id": "400",
+    "level2Id": "440",
+    "energyFlag": "1"
+  },
+  {
+    "id": "446",
+    "title": "外付けハードディスクドライブ",
+    "level": 3,
+    "parentId": "440",
+    "level1Id": "400",
+    "level2Id": "440",
+    "energyFlag": "1"
+  },
+  {
+    "id": "447",
+    "title": "ネットワークストレージ",
+    "level": 3,
+    "parentId": "440",
+    "level1Id": "400",
+    "level2Id": "440",
+    "energyFlag": "1"
+  },
+  {
+    "id": "450",
+    "title": "カメラ・ビデオカメラ",
+    "level": 2,
+    "parentId": "400",
+    "level1Id": "400",
+    "level2Id": "450",
+    "energyFlag": "1"
+  },
+  {
+    "id": "451",
+    "title": "デジタル一眼",
+    "level": 3,
+    "parentId": "450",
+    "level1Id": "400",
+    "level2Id": "450",
+    "energyFlag": "1"
+  },
+  {
+    "id": "452",
+    "title": "コンパクトデジタルカメラ",
+    "level": 3,
+    "parentId": "450",
+    "level1Id": "400",
+    "level2Id": "450",
+    "energyFlag": "1"
+  },
+  {
+    "id": "453",
+    "title": "ビデオカメラ",
+    "level": 3,
+    "parentId": "450",
+    "level1Id": "400",
+    "level2Id": "450",
+    "energyFlag": "1"
+  },
+  {
+    "id": "454",
+    "title": "防犯カメラ",
+    "level": 3,
+    "parentId": "450",
+    "level1Id": "400",
+    "level2Id": "450",
+    "energyFlag": "1"
+  },
+  {
+    "id": "460",
+    "title": "電動・電気式おもちゃ",
+    "level": 2,
+    "parentId": "400",
+    "level1Id": "400",
+    "level2Id": "460",
+    "energyFlag": "1"
+  },
+  {
+    "id": "461",
+    "title": "ラジコン",
+    "level": 3,
+    "parentId": "460",
+    "level1Id": "400",
+    "level2Id": "460",
+    "energyFlag": "1"
+  },
+  {
+    "id": "462",
+    "title": "鉄道模型",
+    "level": 3,
+    "parentId": "460",
+    "level1Id": "400",
+    "level2Id": "460",
+    "energyFlag": "1"
+  },
+  {
+    "id": "470",
+    "title": "おもちゃ・ぬいぐるみ・人形",
+    "level": 2,
+    "parentId": "400",
+    "level1Id": "400",
+    "level2Id": "470",
+    "energyFlag": "2"
+  },
+  {
+    "id": "480",
+    "title": "電子楽器",
+    "level": 2,
+    "parentId": "400",
+    "level1Id": "400",
+    "level2Id": "480",
+    "energyFlag": "1"
+  },
+  {
+    "id": "481",
+    "title": "ギター",
+    "level": 3,
+    "parentId": "480",
+    "level1Id": "400",
+    "level2Id": "480",
+    "energyFlag": "1"
+  },
+  {
+    "id": "482",
+    "title": "ベース",
+    "level": 3,
+    "parentId": "480",
+    "level1Id": "400",
+    "level2Id": "480",
+    "energyFlag": "1"
+  },
+  {
+    "id": "483",
+    "title": "ピアノ・オルガン",
+    "level": 3,
+    "parentId": "480",
+    "level1Id": "400",
+    "level2Id": "480",
+    "energyFlag": "1"
+  },
+  {
+    "id": "484",
+    "title": "PA音響機器",
+    "level": 3,
+    "parentId": "480",
+    "level1Id": "400",
+    "level2Id": "480",
+    "energyFlag": "1"
+  },
+  {
+    "id": "485",
+    "title": "シンセサイザー",
+    "level": 3,
+    "parentId": "480",
+    "level1Id": "400",
+    "level2Id": "480",
+    "energyFlag": "1"
+  },
+  {
+    "id": "490",
+    "title": "アコースティック楽器",
+    "level": 2,
+    "parentId": "400",
+    "level1Id": "400",
+    "level2Id": "490",
+    "energyFlag": "2"
+  },
+  {
+    "id": "510",
+    "title": "スポーツ・レジャー",
+    "level": 2,
+    "parentId": "400",
+    "level1Id": "400",
+    "level2Id": "510",
+    "energyFlag": "2"
+  },
+  {
+    "id": "511",
+    "title": "キャンプ・アウトドア",
+    "level": 3,
+    "parentId": "510",
+    "level1Id": "400",
+    "level2Id": "510",
+    "energyFlag": "2"
+  },
+  {
+    "id": "512",
+    "title": "フィッシング",
+    "level": 3,
+    "parentId": "510",
+    "level1Id": "400",
+    "level2Id": "510",
+    "energyFlag": "2"
+  },
+  {
+    "id": "513",
+    "title": "船、ボート",
+    "level": 3,
+    "parentId": "510",
+    "level1Id": "400",
+    "level2Id": "510",
+    "energyFlag": "2"
+  },
+  {
+    "id": "514",
+    "title": "ゴルフ",
+    "level": 3,
+    "parentId": "510",
+    "level1Id": "400",
+    "level2Id": "510",
+    "energyFlag": "2"
+  },
+  {
+    "id": "515",
+    "title": "フィットネス・トレーニング",
+    "level": 3,
+    "parentId": "510",
+    "level1Id": "400",
+    "level2Id": "510",
+    "energyFlag": "2"
+  },
+  {
+    "id": "516",
+    "title": "登山・クライミング",
+    "level": 3,
+    "parentId": "510",
+    "level1Id": "400",
+    "level2Id": "510",
+    "energyFlag": "2"
+  },
+  {
+    "id": "517",
+    "title": "水泳・スイミング",
+    "level": 3,
+    "parentId": "510",
+    "level1Id": "400",
+    "level2Id": "510",
+    "energyFlag": "2"
+  },
+  {
+    "id": "518",
+    "title": "スキー",
+    "level": 3,
+    "parentId": "510",
+    "level1Id": "400",
+    "level2Id": "510",
+    "energyFlag": "2"
+  },
+  {
+    "id": "519",
+    "title": "スノーボード",
+    "level": 3,
+    "parentId": "510",
+    "level1Id": "400",
+    "level2Id": "510",
+    "energyFlag": "2"
+  },
+  {
+    "id": "521",
+    "title": "サッカー・フットサル",
+    "level": 3,
+    "parentId": "510",
+    "level1Id": "400",
+    "level2Id": "510",
+    "energyFlag": "2"
+  },
+  {
+    "id": "522",
+    "title": "野球",
+    "level": 3,
+    "parentId": "510",
+    "level1Id": "400",
+    "level2Id": "510",
+    "energyFlag": "2"
+  },
+  {
+    "id": "523",
+    "title": "ソフトボール",
+    "level": 3,
+    "parentId": "510",
+    "level1Id": "400",
+    "level2Id": "510",
+    "energyFlag": "2"
+  },
+  {
+    "id": "524",
+    "title": "硬式テニス",
+    "level": 3,
+    "parentId": "510",
+    "level1Id": "400",
+    "level2Id": "510",
+    "energyFlag": "2"
+  },
+  {
+    "id": "525",
+    "title": "ソフトテニス",
+    "level": 3,
+    "parentId": "510",
+    "level1Id": "400",
+    "level2Id": "510",
+    "energyFlag": "2"
+  },
+  {
+    "id": "526",
+    "title": "バドミントン",
+    "level": 3,
+    "parentId": "510",
+    "level1Id": "400",
+    "level2Id": "510",
+    "energyFlag": "2"
+  },
+  {
+    "id": "527",
+    "title": "卓球",
+    "level": 3,
+    "parentId": "510",
+    "level1Id": "400",
+    "level2Id": "510",
+    "energyFlag": "2"
+  },
+  {
+    "id": "528",
+    "title": "バスケットボール",
+    "level": 3,
+    "parentId": "510",
+    "level1Id": "400",
+    "level2Id": "510",
+    "energyFlag": "2"
+  },
+  {
+    "id": "529",
+    "title": "バレーボール",
+    "level": 3,
+    "parentId": "510",
+    "level1Id": "400",
+    "level2Id": "510",
+    "energyFlag": "2"
+  },
+  {
+    "id": "530",
+    "title": "ペット用品",
+    "level": 2,
+    "parentId": "400",
+    "level1Id": "400",
+    "level2Id": "530",
+    "energyFlag": "2"
+  },
+  {
+    "id": "531",
+    "title": "保温装置",
+    "level": 3,
+    "parentId": "530",
+    "level1Id": "400",
+    "level2Id": "530",
+    "energyFlag": "1"
+  },
+  {
+    "id": "532",
+    "title": "ケージ・水槽",
+    "level": 3,
+    "parentId": "530",
+    "level1Id": "400",
+    "level2Id": "530",
+    "energyFlag": "2"
+  },
+  {
+    "id": "533",
+    "title": "トイレ用品",
+    "level": 3,
+    "parentId": "530",
+    "level1Id": "400",
+    "level2Id": "530",
+    "energyFlag": "2"
+  },
+  {
+    "id": "534",
+    "title": "キャリーバッグ",
+    "level": 3,
+    "parentId": "530",
+    "level1Id": "400",
+    "level2Id": "530",
+    "energyFlag": "2"
+  },
+  {
+    "id": "535",
+    "title": "遊び道具",
+    "level": 3,
+    "parentId": "530",
+    "level1Id": "400",
+    "level2Id": "530",
+    "energyFlag": "2"
+  },
+  {
+    "id": "540",
+    "title": "花・園芸",
+    "level": 2,
+    "parentId": "400",
+    "level1Id": "400",
+    "level2Id": "540",
+    "energyFlag": "2"
+  },
+  {
+    "id": "541",
+    "title": "プランター",
+    "level": 3,
+    "parentId": "540",
+    "level1Id": "400",
+    "level2Id": "540",
+    "energyFlag": "2"
+  },
+  {
+    "id": "542",
+    "title": "支柱",
+    "level": 3,
+    "parentId": "540",
+    "level1Id": "400",
+    "level2Id": "540",
+    "energyFlag": "2"
+  },
+  {
+    "id": "543",
+    "title": "スコップ等",
+    "level": 3,
+    "parentId": "540",
+    "level1Id": "400",
+    "level2Id": "540",
+    "energyFlag": "2"
+  },
+  {
+    "id": "544",
+    "title": "ホース",
+    "level": 3,
+    "parentId": "540",
+    "level1Id": "400",
+    "level2Id": "540",
+    "energyFlag": "2"
+  },
+  {
+    "id": "545",
+    "title": "寒冷紗",
+    "level": 3,
+    "parentId": "540",
+    "level1Id": "400",
+    "level2Id": "540",
+    "energyFlag": "2"
+  },
+  {
+    "id": "546",
+    "title": "ネット",
+    "level": 3,
+    "parentId": "540",
+    "level1Id": "400",
+    "level2Id": "540",
+    "energyFlag": "2"
+  },
+  {
+    "id": "600",
+    "title": "本・メディア・収集保管品",
+    "level": 1,
+    "parentId": null,
+    "level1Id": "600",
+    "level2Id": null,
+    "energyFlag": "2"
+  },
+  {
+    "id": "610",
+    "title": "本・メディア・収集保管品",
+    "level": 2,
+    "parentId": "600",
+    "level1Id": "600",
+    "level2Id": "610",
+    "energyFlag": "2"
+  },
+  {
+    "id": "611",
+    "title": "本",
+    "level": 3,
+    "parentId": "610",
+    "level1Id": "600",
+    "level2Id": "610",
+    "energyFlag": "2"
+  },
+  {
+    "id": "612",
+    "title": "DVD・ブルーレイ",
+    "level": 3,
+    "parentId": "610",
+    "level1Id": "600",
+    "level2Id": "610",
+    "energyFlag": "2"
+  },
+  {
+    "id": "613",
+    "title": "ビデオテープ",
+    "level": 3,
+    "parentId": "610",
+    "level1Id": "600",
+    "level2Id": "610",
+    "energyFlag": "2"
+  },
+  {
+    "id": "614",
+    "title": "CD",
+    "level": 3,
+    "parentId": "610",
+    "level1Id": "600",
+    "level2Id": "610",
+    "energyFlag": "2"
+  },
+  {
+    "id": "615",
+    "title": "レコード",
+    "level": 3,
+    "parentId": "610",
+    "level1Id": "600",
+    "level2Id": "610",
+    "energyFlag": "2"
+  },
+  {
+    "id": "616",
+    "title": "テープ",
+    "level": 3,
+    "parentId": "610",
+    "level1Id": "600",
+    "level2Id": "610",
+    "energyFlag": "2"
+  },
+  {
+    "id": "617",
+    "title": "収集品",
+    "level": 3,
+    "parentId": "610",
+    "level1Id": "600",
+    "level2Id": "610",
+    "energyFlag": "2"
+  },
+  {
+    "id": "618",
+    "title": "アルバム",
+    "level": 3,
+    "parentId": "610",
+    "level1Id": "600",
+    "level2Id": "610",
+    "energyFlag": "2"
+  },
+  {
+    "id": "619",
+    "title": "手紙",
+    "level": 3,
+    "parentId": "610",
+    "level1Id": "600",
+    "level2Id": "610",
+    "energyFlag": "2"
+  },
+  {
+    "id": "621",
+    "title": "作品",
+    "level": 3,
+    "parentId": "610",
+    "level1Id": "600",
+    "level2Id": "610",
+    "energyFlag": "2"
+  },
+  {
+    "id": "622",
+    "title": "賞状・盾",
+    "level": 3,
+    "parentId": "610",
+    "level1Id": "600",
+    "level2Id": "610",
+    "energyFlag": "2"
+  },
+  {
+    "id": "700",
+    "title": "家具",
+    "level": 1,
+    "parentId": null,
+    "level1Id": "700",
+    "level2Id": null,
+    "energyFlag": "2"
+  },
+  {
+    "id": "710",
+    "title": "家具",
+    "level": 2,
+    "parentId": "700",
+    "level1Id": "700",
+    "level2Id": "710",
+    "energyFlag": "2"
+  },
+  {
+    "id": "711",
+    "title": "本棚ラック",
+    "level": 3,
+    "parentId": "710",
+    "level1Id": "700",
+    "level2Id": "710",
+    "energyFlag": "2"
+  },
+  {
+    "id": "712",
+    "title": "収納家具",
+    "level": 3,
+    "parentId": "710",
+    "level1Id": "700",
+    "level2Id": "710",
+    "energyFlag": "2"
+  },
+  {
+    "id": "713",
+    "title": "テレビ台",
+    "level": 3,
+    "parentId": "710",
+    "level1Id": "700",
+    "level2Id": "710",
+    "energyFlag": "2"
+  },
+  {
+    "id": "714",
+    "title": "食器棚",
+    "level": 3,
+    "parentId": "710",
+    "level1Id": "700",
+    "level2Id": "710",
+    "energyFlag": "2"
+  },
+  {
+    "id": "715",
+    "title": "テーブル・椅子",
+    "level": 3,
+    "parentId": "710",
+    "level1Id": "700",
+    "level2Id": "710",
+    "energyFlag": "2"
+  },
+  {
+    "id": "716",
+    "title": "こたつ",
+    "level": 3,
+    "parentId": "710",
+    "level1Id": "700",
+    "level2Id": "710",
+    "energyFlag": "2"
+  },
+  {
+    "id": "717",
+    "title": "ソファ",
+    "level": 3,
+    "parentId": "710",
+    "level1Id": "700",
+    "level2Id": "710",
+    "energyFlag": "2"
+  },
+  {
+    "id": "718",
+    "title": "ベッド",
+    "level": 3,
+    "parentId": "710",
+    "level1Id": "700",
+    "level2Id": "710",
+    "energyFlag": "2"
+  },
+  {
+    "id": "719",
+    "title": "学習机",
+    "level": 3,
+    "parentId": "710",
+    "level1Id": "700",
+    "level2Id": "710",
+    "energyFlag": "2"
+  },
+  {
+    "id": "721",
+    "title": "オフィスデスク・チェア",
+    "level": 3,
+    "parentId": "710",
+    "level1Id": "700",
+    "level2Id": "710",
+    "energyFlag": "2"
+  },
+  {
+    "id": "722",
+    "title": "ドレッサー",
+    "level": 3,
+    "parentId": "710",
+    "level1Id": "700",
+    "level2Id": "710",
+    "energyFlag": "2"
+  },
+  {
+    "id": "723",
+    "title": "廊下・玄関家具",
+    "level": 3,
+    "parentId": "710",
+    "level1Id": "700",
+    "level2Id": "710",
+    "energyFlag": "2"
+  },
+  {
+    "id": "724",
+    "title": "収納家具",
+    "level": 3,
+    "parentId": "710",
+    "level1Id": "700",
+    "level2Id": "710",
+    "energyFlag": "2"
+  },
+  {
+    "id": "730",
+    "title": "収納用品",
+    "level": 2,
+    "parentId": "700",
+    "level1Id": "700",
+    "level2Id": "730",
+    "energyFlag": "2"
+  },
+  {
+    "id": "731",
+    "title": "収納ケース・ボックス",
+    "level": 3,
+    "parentId": "730",
+    "level1Id": "700",
+    "level2Id": "730",
+    "energyFlag": "2"
+  },
+  {
+    "id": "732",
+    "title": "かご・バスケット",
+    "level": 3,
+    "parentId": "730",
+    "level1Id": "700",
+    "level2Id": "730",
+    "energyFlag": "2"
+  },
+  {
+    "id": "733",
+    "title": "つっぱり棒・つっぱり棚",
+    "level": 3,
+    "parentId": "730",
+    "level1Id": "700",
+    "level2Id": "730",
+    "energyFlag": "2"
+  },
+  {
+    "id": "734",
+    "title": "衣類カバー",
+    "level": 3,
+    "parentId": "730",
+    "level1Id": "700",
+    "level2Id": "730",
+    "energyFlag": "2"
+  },
+  {
+    "id": "735",
+    "title": "ウォールポケット",
+    "level": 3,
+    "parentId": "730",
+    "level1Id": "700",
+    "level2Id": "730",
+    "energyFlag": "2"
+  },
+  {
+    "id": "736",
+    "title": "キッチン収納",
+    "level": 3,
+    "parentId": "730",
+    "level1Id": "700",
+    "level2Id": "730",
+    "energyFlag": "2"
+  },
+  {
+    "id": "737",
+    "title": "トイレ収納",
+    "level": 3,
+    "parentId": "730",
+    "level1Id": "700",
+    "level2Id": "730",
+    "energyFlag": "2"
+  },
+  {
+    "id": "738",
+    "title": "ランドリー収納",
+    "level": 3,
+    "parentId": "730",
+    "level1Id": "700",
+    "level2Id": "730",
+    "energyFlag": "2"
+  },
+  {
+    "id": "739",
+    "title": "傘立て",
+    "level": 3,
+    "parentId": "730",
+    "level1Id": "700",
+    "level2Id": "730",
+    "energyFlag": "2"
+  },
+  {
+    "id": "741",
+    "title": "シューズ収納",
+    "level": 3,
+    "parentId": "730",
+    "level1Id": "700",
+    "level2Id": "730",
+    "energyFlag": "2"
+  },
+  {
+    "id": "750",
+    "title": "寝具",
+    "level": 2,
+    "parentId": "700",
+    "level1Id": "700",
+    "level2Id": "750",
+    "energyFlag": "2"
+  },
+  {
+    "id": "751",
+    "title": "折りたたみマットレス",
+    "level": 3,
+    "parentId": "750",
+    "level1Id": "700",
+    "level2Id": "750",
+    "energyFlag": "2"
+  },
+  {
+    "id": "752",
+    "title": "敷きふとん",
+    "level": 3,
+    "parentId": "750",
+    "level1Id": "700",
+    "level2Id": "750",
+    "energyFlag": "2"
+  },
+  {
+    "id": "753",
+    "title": "掛けふとん",
+    "level": 3,
+    "parentId": "750",
+    "level1Id": "700",
+    "level2Id": "750",
+    "energyFlag": "2"
+  },
+  {
+    "id": "754",
+    "title": "枕・抱き枕",
+    "level": 3,
+    "parentId": "750",
+    "level1Id": "700",
+    "level2Id": "750",
+    "energyFlag": "2"
+  },
+  {
+    "id": "755",
+    "title": "寝具カバー・シーツ",
+    "level": 3,
+    "parentId": "750",
+    "level1Id": "700",
+    "level2Id": "750",
+    "energyFlag": "2"
+  },
+  {
+    "id": "756",
+    "title": "ベッドパッド・敷きパッド",
+    "level": 3,
+    "parentId": "750",
+    "level1Id": "700",
+    "level2Id": "750",
+    "energyFlag": "2"
+  },
+  {
+    "id": "757",
+    "title": "毛布 ・タオルケット",
+    "level": 3,
+    "parentId": "750",
+    "level1Id": "700",
+    "level2Id": "750",
+    "energyFlag": "2"
+  },
+  {
+    "id": "758",
+    "title": "ひざ掛け・ハーフケット",
+    "level": 3,
+    "parentId": "750",
+    "level1Id": "700",
+    "level2Id": "750",
+    "energyFlag": "2"
+  },
+  {
+    "id": "759",
+    "title": "ベッドスカート",
+    "level": 3,
+    "parentId": "750",
+    "level1Id": "700",
+    "level2Id": "750",
+    "energyFlag": "2"
+  },
+  {
+    "id": "760",
+    "title": "カーペット・カーテン",
+    "level": 2,
+    "parentId": "700",
+    "level1Id": "700",
+    "level2Id": "760",
+    "energyFlag": "2"
+  },
+  {
+    "id": "761",
+    "title": "カーテン",
+    "level": 3,
+    "parentId": "760",
+    "level1Id": "700",
+    "level2Id": "760",
+    "energyFlag": "2"
+  },
+  {
+    "id": "762",
+    "title": "ブラインド",
+    "level": 3,
+    "parentId": "760",
+    "level1Id": "700",
+    "level2Id": "760",
+    "energyFlag": "2"
+  },
+  {
+    "id": "763",
+    "title": "すだれ・よしず",
+    "level": 3,
+    "parentId": "760",
+    "level1Id": "700",
+    "level2Id": "760",
+    "energyFlag": "2"
+  },
+  {
+    "id": "764",
+    "title": "カーペット・マット",
+    "level": 3,
+    "parentId": "760",
+    "level1Id": "700",
+    "level2Id": "760",
+    "energyFlag": "2"
+  },
+  {
+    "id": "765",
+    "title": "こたつ布団・こたつマット",
+    "level": 3,
+    "parentId": "760",
+    "level1Id": "700",
+    "level2Id": "760",
+    "energyFlag": "2"
+  },
+  {
+    "id": "766",
+    "title": "ソファカバー・マルチカバー",
+    "level": 3,
+    "parentId": "760",
+    "level1Id": "700",
+    "level2Id": "760",
+    "energyFlag": "2"
+  },
+  {
+    "id": "767",
+    "title": "ダイニングチェアカバー",
+    "level": 3,
+    "parentId": "760",
+    "level1Id": "700",
+    "level2Id": "760",
+    "energyFlag": "2"
+  },
+  {
+    "id": "768",
+    "title": "クッション・座布団",
+    "level": 3,
+    "parentId": "760",
+    "level1Id": "700",
+    "level2Id": "760",
+    "energyFlag": "2"
+  },
+  {
+    "id": "800",
+    "title": "衣類",
+    "level": 1,
+    "parentId": null,
+    "level1Id": "800",
+    "level2Id": null,
+    "energyFlag": "2"
+  },
+  {
+    "id": "810",
+    "title": "洋服",
+    "level": 2,
+    "parentId": "800",
+    "level1Id": "800",
+    "level2Id": "810",
+    "energyFlag": "2"
+  },
+  {
+    "id": "811",
+    "title": "スーツ・ワンピース",
+    "level": 3,
+    "parentId": "810",
+    "level1Id": "800",
+    "level2Id": "810",
+    "energyFlag": "2"
+  },
+  {
+    "id": "812",
+    "title": "上着",
+    "level": 3,
+    "parentId": "810",
+    "level1Id": "800",
+    "level2Id": "810",
+    "energyFlag": "2"
+  },
+  {
+    "id": "813",
+    "title": "ズボン・スカート",
+    "level": 3,
+    "parentId": "810",
+    "level1Id": "800",
+    "level2Id": "810",
+    "energyFlag": "2"
+  },
+  {
+    "id": "814",
+    "title": "スラックス",
+    "level": 3,
+    "parentId": "810",
+    "level1Id": "800",
+    "level2Id": "810",
+    "energyFlag": "2"
+  },
+  {
+    "id": "815",
+    "title": "コート",
+    "level": 3,
+    "parentId": "810",
+    "level1Id": "800",
+    "level2Id": "810",
+    "energyFlag": "2"
+  },
+  {
+    "id": "816",
+    "title": "ワイシャツ・ブラウス",
+    "level": 3,
+    "parentId": "810",
+    "level1Id": "800",
+    "level2Id": "810",
+    "energyFlag": "2"
+  },
+  {
+    "id": "817",
+    "title": "他のシャツ",
+    "level": 3,
+    "parentId": "810",
+    "level1Id": "800",
+    "level2Id": "810",
+    "energyFlag": "2"
+  },
+  {
+    "id": "818",
+    "title": "セーター",
+    "level": 3,
+    "parentId": "810",
+    "level1Id": "800",
+    "level2Id": "810",
+    "energyFlag": "2"
+  },
+  {
+    "id": "819",
+    "title": "他の洋服",
+    "level": 3,
+    "parentId": "810",
+    "level1Id": "800",
+    "level2Id": "810",
+    "energyFlag": "2"
+  },
+  {
+    "id": "820",
+    "title": "和服",
+    "level": 2,
+    "parentId": "800",
+    "level1Id": "800",
+    "level2Id": "820",
+    "energyFlag": "2"
+  },
+  {
+    "id": "830",
+    "title": "子ども用服",
+    "level": 2,
+    "parentId": "800",
+    "level1Id": "800",
+    "level2Id": "830",
+    "energyFlag": "2"
+  },
+  {
+    "id": "831",
+    "title": "子供服",
+    "level": 3,
+    "parentId": "830",
+    "level1Id": "800",
+    "level2Id": "830",
+    "energyFlag": "2"
+  },
+  {
+    "id": "832",
+    "title": "乳児服",
+    "level": 3,
+    "parentId": "830",
+    "level1Id": "800",
+    "level2Id": "830",
+    "energyFlag": "2"
+  },
+  {
+    "id": "833",
+    "title": "子供用シャツ・セーター類",
+    "level": 3,
+    "parentId": "830",
+    "level1Id": "800",
+    "level2Id": "830",
+    "energyFlag": "2"
+  },
+  {
+    "id": "840",
+    "title": "下着",
+    "level": 2,
+    "parentId": "800",
+    "level1Id": "800",
+    "level2Id": "840",
+    "energyFlag": "2"
+  },
+  {
+    "id": "841",
+    "title": "下着",
+    "level": 3,
+    "parentId": "840",
+    "level1Id": "800",
+    "level2Id": "840",
+    "energyFlag": "2"
+  },
+  {
+    "id": "842",
+    "title": "寝巻き",
+    "level": 3,
+    "parentId": "840",
+    "level1Id": "800",
+    "level2Id": "840",
+    "energyFlag": "2"
+  },
+  {
+    "id": "843",
+    "title": "女性用補整下着",
+    "level": 3,
+    "parentId": "840",
+    "level1Id": "800",
+    "level2Id": "840",
+    "energyFlag": "2"
+  },
+  {
+    "id": "850",
+    "title": "他の被覆",
+    "level": 2,
+    "parentId": "800",
+    "level1Id": "800",
+    "level2Id": "850",
+    "energyFlag": "2"
+  },
+  {
+    "id": "851",
+    "title": "帽子",
+    "level": 3,
+    "parentId": "850",
+    "level1Id": "800",
+    "level2Id": "850",
+    "energyFlag": "2"
+  },
+  {
+    "id": "852",
+    "title": "マフラー・スカーフ",
+    "level": 3,
+    "parentId": "850",
+    "level1Id": "800",
+    "level2Id": "850",
+    "energyFlag": "2"
+  },
+  {
+    "id": "853",
+    "title": "手袋",
+    "level": 3,
+    "parentId": "850",
+    "level1Id": "800",
+    "level2Id": "850",
+    "energyFlag": "2"
+  },
+  {
+    "id": "854",
+    "title": "靴下",
+    "level": 3,
+    "parentId": "850",
+    "level1Id": "800",
+    "level2Id": "850",
+    "energyFlag": "2"
+  },
+  {
+    "id": "860",
+    "title": "靴",
+    "level": 2,
+    "parentId": "800",
+    "level1Id": "800",
+    "level2Id": "860",
+    "energyFlag": "2"
+  },
+  {
+    "id": "861",
+    "title": "運動靴",
+    "level": 3,
+    "parentId": "860",
+    "level1Id": "800",
+    "level2Id": "860",
+    "energyFlag": "2"
+  },
+  {
+    "id": "862",
+    "title": "サンダル",
+    "level": 3,
+    "parentId": "860",
+    "level1Id": "800",
+    "level2Id": "860",
+    "energyFlag": "2"
+  },
+  {
+    "id": "863",
+    "title": "靴",
+    "level": 3,
+    "parentId": "860",
+    "level1Id": "800",
+    "level2Id": "860",
+    "energyFlag": "2"
+  },
+  {
+    "id": "864",
+    "title": "ブーツ",
+    "level": 3,
+    "parentId": "860",
+    "level1Id": "800",
+    "level2Id": "860",
+    "energyFlag": "2"
+  },
+  {
+    "id": "865",
+    "title": "スリッパ",
+    "level": 3,
+    "parentId": "860",
+    "level1Id": "800",
+    "level2Id": "860",
+    "energyFlag": "2"
+  },
+  {
+    "id": "866",
+    "title": "下駄雪駄",
+    "level": 3,
+    "parentId": "860",
+    "level1Id": "800",
+    "level2Id": "860",
+    "energyFlag": "2"
+  },
+  {
+    "id": "867",
+    "title": "長靴",
+    "level": 3,
+    "parentId": "860",
+    "level1Id": "800",
+    "level2Id": "860",
+    "energyFlag": "2"
+  },
+  {
+    "id": "870",
+    "title": "バッグ",
+    "level": 2,
+    "parentId": "800",
+    "level1Id": "800",
+    "level2Id": "870",
+    "energyFlag": "2"
+  },
+  {
+    "id": "871",
+    "title": "トートバッグ",
+    "level": 3,
+    "parentId": "870",
+    "level1Id": "800",
+    "level2Id": "870",
+    "energyFlag": "2"
+  },
+  {
+    "id": "872",
+    "title": "ショルダーバッグ",
+    "level": 3,
+    "parentId": "870",
+    "level1Id": "800",
+    "level2Id": "870",
+    "energyFlag": "2"
+  },
+  {
+    "id": "873",
+    "title": "リュックサック",
+    "level": 3,
+    "parentId": "870",
+    "level1Id": "800",
+    "level2Id": "870",
+    "energyFlag": "2"
+  },
+  {
+    "id": "874",
+    "title": "ランドセル・通学用バッグ",
+    "level": 3,
+    "parentId": "870",
+    "level1Id": "800",
+    "level2Id": "870",
+    "energyFlag": "2"
+  },
+  {
+    "id": "875",
+    "title": "ハンドバッグ",
+    "level": 3,
+    "parentId": "870",
+    "level1Id": "800",
+    "level2Id": "870",
+    "energyFlag": "2"
+  },
+  {
+    "id": "876",
+    "title": "買い物バッグ",
+    "level": 3,
+    "parentId": "870",
+    "level1Id": "800",
+    "level2Id": "870",
+    "energyFlag": "2"
+  },
+  {
+    "id": "877",
+    "title": "スーツケース",
+    "level": 3,
+    "parentId": "870",
+    "level1Id": "800",
+    "level2Id": "870",
+    "energyFlag": "2"
+  },
+  {
+    "id": "0",
+    "title": "設備",
+    "level": 1,
+    "parentId": null,
+    "level1Id": "0",
+    "level2Id": null,
+    "energyFlag": "2"
+  },
+  {
+    "id": "10",
+    "title": "窓・サッシ",
+    "level": 2,
+    "parentId": "0",
+    "level1Id": "0",
+    "level2Id": "10",
+    "energyFlag": "2"
+  },
+  {
+    "id": "20",
+    "title": "壁",
+    "level": 2,
+    "parentId": "0",
+    "level1Id": "0",
+    "level2Id": "20",
+    "energyFlag": "2"
+  },
+  {
+    "id": "21",
+    "title": "壁",
+    "level": 3,
+    "parentId": "20",
+    "level1Id": "0",
+    "level2Id": "20",
+    "energyFlag": "2"
+  },
+  {
+    "id": "22",
+    "title": "床",
+    "level": 3,
+    "parentId": "20",
+    "level1Id": "0",
+    "level2Id": "20",
+    "energyFlag": "2"
+  },
+  {
+    "id": "23",
+    "title": "天井・屋根",
+    "level": 3,
+    "parentId": "20",
+    "level1Id": "0",
+    "level2Id": "20",
+    "energyFlag": "2"
+  },
+  {
+    "id": "24",
+    "title": "断熱材",
+    "level": 3,
+    "parentId": "20",
+    "level1Id": "0",
+    "level2Id": "20",
+    "energyFlag": "2"
+  },
+  {
+    "id": "30",
+    "title": "太陽光",
+    "level": 2,
+    "parentId": "0",
+    "level1Id": "0",
+    "level2Id": "30",
+    "energyFlag": "2"
+  },
+  {
+    "id": "31",
+    "title": "太陽光発電システム",
+    "level": 3,
+    "parentId": "30",
+    "level1Id": "0",
+    "level2Id": "30",
+    "energyFlag": "2"
+  },
+  {
+    "id": "32",
+    "title": "ポータブル太陽光パネル",
+    "level": 3,
+    "parentId": "30",
+    "level1Id": "0",
+    "level2Id": "30",
+    "energyFlag": "2"
+  },
+  {
+    "id": "33",
+    "title": "コンディショナー",
+    "level": 3,
+    "parentId": "30",
+    "level1Id": "0",
+    "level2Id": "30",
+    "energyFlag": "2"
+  },
+  {
+    "id": "40",
+    "title": "蓄電",
+    "level": 2,
+    "parentId": "0",
+    "level1Id": "0",
+    "level2Id": "40",
+    "energyFlag": "2"
+  },
+  {
+    "id": "41",
+    "title": "家庭用蓄電装置",
+    "level": 3,
+    "parentId": "40",
+    "level1Id": "0",
+    "level2Id": "40",
+    "energyFlag": "2"
+  },
+  {
+    "id": "42",
+    "title": "ポータブル蓄電池",
+    "level": 3,
+    "parentId": "40",
+    "level1Id": "0",
+    "level2Id": "40",
+    "energyFlag": "2"
+  },
+  {
+    "id": "43",
+    "title": "電気自動車充電設備",
+    "level": 3,
+    "parentId": "40",
+    "level1Id": "0",
+    "level2Id": "40",
+    "energyFlag": "2"
+  },
+  {
+    "id": "50",
+    "title": "給湯設備",
+    "level": 2,
+    "parentId": "0",
+    "level1Id": "0",
+    "level2Id": "50",
+    "energyFlag": "1"
+  },
+  {
+    "id": "51",
+    "title": "給湯器",
+    "level": 3,
+    "parentId": "50",
+    "level1Id": "0",
+    "level2Id": "50",
+    "energyFlag": "1"
+  },
+  {
+    "id": "52",
+    "title": "給湯配管",
+    "level": 3,
+    "parentId": "50",
+    "level1Id": "0",
+    "level2Id": "50",
+    "energyFlag": "2"
+  },
+  {
+    "id": "60",
+    "title": "浴室",
+    "level": 2,
+    "parentId": "0",
+    "level1Id": "0",
+    "level2Id": "60",
+    "energyFlag": "2"
+  },
+  {
+    "id": "61",
+    "title": "浴槽",
+    "level": 3,
+    "parentId": "60",
+    "level1Id": "0",
+    "level2Id": "60",
+    "energyFlag": "2"
+  },
+  {
+    "id": "62",
+    "title": "混合栓蛇口",
+    "level": 3,
+    "parentId": "60",
+    "level1Id": "0",
+    "level2Id": "60",
+    "energyFlag": "2"
+  },
+  {
+    "id": "63",
+    "title": "シャワー",
+    "level": 3,
+    "parentId": "60",
+    "level1Id": "0",
+    "level2Id": "60",
+    "energyFlag": "2"
+  },
+  {
+    "id": "70",
+    "title": "トイレ",
+    "level": 2,
+    "parentId": "0",
+    "level1Id": "0",
+    "level2Id": "70",
+    "energyFlag": "1"
+  },
+  {
+    "id": "71",
+    "title": "温水洗浄便座",
+    "level": 3,
+    "parentId": "70",
+    "level1Id": "0",
+    "level2Id": "70",
+    "energyFlag": "1"
+  },
+  {
+    "id": "72",
+    "title": "タンク",
+    "level": 3,
+    "parentId": "70",
+    "level1Id": "0",
+    "level2Id": "70",
+    "energyFlag": "2"
+  },
+  {
+    "id": "73",
+    "title": "便器",
+    "level": 3,
+    "parentId": "70",
+    "level1Id": "0",
+    "level2Id": "70",
+    "energyFlag": "2"
+  },
+  {
+    "id": "80",
+    "title": "洗面",
+    "level": 2,
+    "parentId": "0",
+    "level1Id": "0",
+    "level2Id": "80",
+    "energyFlag": "2"
+  },
+  {
+    "id": "81",
+    "title": "温水水栓",
+    "level": 3,
+    "parentId": "80",
+    "level1Id": "0",
+    "level2Id": "80",
+    "energyFlag": "2"
+  },
+  {
+    "id": "90",
+    "title": "住宅構造",
+    "level": 2,
+    "parentId": "0",
+    "level1Id": "0",
+    "level2Id": "90",
+    "energyFlag": "2"
+  },
+  {
+    "id": "91",
+    "title": "床下調湿",
+    "level": 3,
+    "parentId": "90",
+    "level1Id": "0",
+    "level2Id": "90",
+    "energyFlag": "2"
+  },
+  {
+    "id": "92",
+    "title": "耐震",
+    "level": 3,
+    "parentId": "90",
+    "level1Id": "0",
+    "level2Id": "90",
+    "energyFlag": "2"
+  },
+  {
+    "id": "93",
+    "title": "柱・根太・鉄骨",
+    "level": 3,
+    "parentId": "90",
+    "level1Id": "0",
+    "level2Id": "90",
+    "energyFlag": "2"
+  },
+  {
+    "id": "900",
+    "title": "移動",
+    "level": 1,
+    "parentId": null,
+    "level1Id": "900",
+    "level2Id": null,
+    "energyFlag": "1"
+  },
+  {
+    "id": "910",
+    "title": "移動用機器（燃料・電気必要）",
+    "level": 2,
+    "parentId": "900",
+    "level1Id": "900",
+    "level2Id": "910",
+    "energyFlag": "1"
+  },
+  {
+    "id": "911",
+    "title": "自動車",
+    "level": 3,
+    "parentId": "910",
+    "level1Id": "900",
+    "level2Id": "910",
+    "energyFlag": "1"
+  },
+  {
+    "id": "912",
+    "title": "オートバイ",
+    "level": 3,
+    "parentId": "910",
+    "level1Id": "900",
+    "level2Id": "910",
+    "energyFlag": "1"
+  },
+  {
+    "id": "913",
+    "title": "電動アシスト自転車",
+    "level": 3,
+    "parentId": "910",
+    "level1Id": "900",
+    "level2Id": "910",
+    "energyFlag": "1"
+  },
+  {
+    "id": "914",
+    "title": "特定小型車両",
+    "level": 3,
+    "parentId": "910",
+    "level1Id": "900",
+    "level2Id": "910",
+    "energyFlag": "1"
+  },
+  {
+    "id": "920",
+    "title": "自転車",
+    "level": 2,
+    "parentId": "900",
+    "level1Id": "900",
+    "level2Id": "920",
+    "energyFlag": "2"
+  },
+  {
+    "id": "921",
+    "title": "自転車本体",
+    "level": 3,
+    "parentId": "920",
+    "level1Id": "900",
+    "level2Id": "920",
+    "energyFlag": "2"
+  },
+  {
+    "id": "930",
+    "title": "自動車用品",
+    "level": 2,
+    "parentId": "900",
+    "level1Id": "900",
+    "level2Id": "930",
+    "energyFlag": "2"
+  },
+  {
+    "id": "931",
+    "title": "カーアクセサリ",
+    "level": 3,
+    "parentId": "930",
+    "level1Id": "900",
+    "level2Id": "930",
+    "energyFlag": "2"
+  },
+  {
+    "id": "932",
+    "title": "チャイルドシート",
+    "level": 3,
+    "parentId": "930",
+    "level1Id": "900",
+    "level2Id": "930",
+    "energyFlag": "2"
+  },
+  {
+    "id": "933",
+    "title": "キャリア",
+    "level": 3,
+    "parentId": "930",
+    "level1Id": "900",
+    "level2Id": "930",
+    "energyFlag": "2"
+  },
+  {
+    "id": "940",
+    "title": "オートバイ用品",
+    "level": 2,
+    "parentId": "900",
+    "level1Id": "900",
+    "level2Id": "940",
+    "energyFlag": "2"
+  },
+  {
+    "id": "941",
+    "title": "ヘルメット",
+    "level": 3,
+    "parentId": "940",
+    "level1Id": "900",
+    "level2Id": "940",
+    "energyFlag": "2"
+  },
+  {
+    "id": "942",
+    "title": "オートバイアクセサリ",
+    "level": 3,
+    "parentId": "940",
+    "level1Id": "900",
+    "level2Id": "940",
+    "energyFlag": "2"
+  },
+  {
+    "id": "943",
+    "title": "バイクウェア",
+    "level": 3,
+    "parentId": "940",
+    "level1Id": "900",
+    "level2Id": "940",
+    "energyFlag": "2"
+  },
+  {
+    "id": "950",
+    "title": "自転車用品",
+    "level": 2,
+    "parentId": "900",
+    "level1Id": "900",
+    "level2Id": "950",
+    "energyFlag": "2"
+  },
+  {
+    "id": "951",
+    "title": "ヘルメット",
+    "level": 3,
+    "parentId": "950",
+    "level1Id": "900",
+    "level2Id": "950",
+    "energyFlag": "2"
+  },
+  {
+    "id": "952",
+    "title": "自転車アクセサリ",
+    "level": 3,
+    "parentId": "950",
+    "level1Id": "900",
+    "level2Id": "950",
+    "energyFlag": "2"
+  },
+  {
+    "id": "953",
+    "title": "サイクリングウェア",
+    "level": 3,
+    "parentId": "950",
+    "level1Id": "900",
+    "level2Id": "950",
+    "energyFlag": "2"
+  },
+  {
+    "id": "954",
+    "title": "バッテリー・充電器",
+    "level": 3,
+    "parentId": "950",
+    "level1Id": "900",
+    "level2Id": "950",
+    "energyFlag": "2"
+  }
+]

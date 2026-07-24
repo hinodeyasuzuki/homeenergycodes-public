@@ -1,0 +1,13 @@
+code,title,cons
+car,自動車,consCR
+tv,テレビ,consTV
+refrigerator,冷蔵庫,consRF
+hotwater,給湯器,consHWsum
+aircon,エアコン,consAC
+lighting,照明,consLI
+dryer,衣類乾燥機,consDRsum
+ricecooker,炊飯ジャー,consCKrice
+pot,電気ポット,consCKpot
+stove,調理コンロ,consCKcook
+toilet,温水洗浄便座,consHWtoilet
+dishwasher,食器洗い乾燥機,consHWdishwash

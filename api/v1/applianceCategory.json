@@ -1,0 +1,62 @@
+[
+  {
+    "code": "car",
+    "title": "自動車",
+    "cons": "consCR"
+  },
+  {
+    "code": "tv",
+    "title": "テレビ",
+    "cons": "consTV"
+  },
+  {
+    "code": "refrigerator",
+    "title": "冷蔵庫",
+    "cons": "consRF"
+  },
+  {
+    "code": "hotwater",
+    "title": "給湯器",
+    "cons": "consHWsum"
+  },
+  {
+    "code": "aircon",
+    "title": "エアコン",
+    "cons": "consAC"
+  },
+  {
+    "code": "lighting",
+    "title": "照明",
+    "cons": "consLI"
+  },
+  {
+    "code": "dryer",
+    "title": "衣類乾燥機",
+    "cons": "consDRsum"
+  },
+  {
+    "code": "ricecooker",
+    "title": "炊飯ジャー",
+    "cons": "consCKrice"
+  },
+  {
+    "code": "pot",
+    "title": "電気ポット",
+    "cons": "consCKpot"
+  },
+  {
+    "code": "stove",
+    "title": "調理コンロ",
+    "cons": "consCKcook"
+  },
+  {
+    "code": "toilet",
+    "title": "温水洗浄便座",
+    "cons": "consHWtoilet"
+  },
+  {
+    "code": "dishwasher",
+    "title": "食器洗い乾燥機",
+    "cons": "consHWdishwash"
+  }
+]

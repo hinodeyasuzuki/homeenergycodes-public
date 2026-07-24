@@ -1,0 +1,47 @@
+[
+  {
+    "code": "elect",
+    "name": "購入電力",
+    "unit": "kWh"
+  },
+  {
+    "code": "nagas",
+    "name": "都市ガス",
+    "unit": "m3"
+  },
+  {
+    "code": "lpgas",
+    "name": "LPガス",
+    "unit": "m3"
+  },
+  {
+    "code": "water",
+    "name": "水道",
+    "unit": "m3"
+  },
+  {
+    "code": "keros",
+    "name": "灯油",
+    "unit": "L"
+  },
+  {
+    "code": "gasol",
+    "name": "ガソリン",
+    "unit": "L"
+  },
+  {
+    "code": "light",
+    "name": "軽油",
+    "unit": "L"
+  },
+  {
+    "code": "selelec",
+    "name": "売電力",
+    "unit": "kWh"
+  },
+  {
+    "code": "genelec",
+    "name": "発電電力",
+    "unit": "kWh"
+  }
+]

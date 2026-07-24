@@ -1,0 +1,10 @@
+code,name,unit
+elect,購入電力,kWh
+nagas,都市ガス,m3
+lpgas,LPガス,m3
+water,水道,m3
+keros,灯油,L
+gasol,ガソリン,L
+light,軽油,L
+selelec,売電力,kWh
+genelec,発電電力,kWh

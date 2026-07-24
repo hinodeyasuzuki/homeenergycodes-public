@@ -1,0 +1,219 @@
+[
+  {
+    "code": "consTotal",
+    "shortcode": "TO",
+    "title": "全体",
+    "countgroup": null,
+    "sumclass": null
+  },
+  {
+    "code": "consHWsum",
+    "shortcode": "HW",
+    "title": "給湯・水道",
+    "countgroup": null,
+    "sumclass": "consTotal"
+  },
+  {
+    "code": "consHWtub",
+    "shortcode": null,
+    "title": "浴槽",
+    "countgroup": null,
+    "sumclass": "consHWsum"
+  },
+  {
+    "code": "consHWshower",
+    "shortcode": null,
+    "title": "シャワー",
+    "countgroup": null,
+    "sumclass": "consHWsum"
+  },
+  {
+    "code": "consHWdishwash",
+    "shortcode": null,
+    "title": "食洗",
+    "countgroup": null,
+    "sumclass": "consHWsum"
+  },
+  {
+    "code": "consHWdresser",
+    "shortcode": null,
+    "title": "洗面",
+    "countgroup": null,
+    "sumclass": "consHWsum"
+  },
+  {
+    "code": "consHWtoilet",
+    "shortcode": null,
+    "title": "トイレ",
+    "countgroup": null,
+    "sumclass": "consHWsum"
+  },
+  {
+    "code": "consHTsum",
+    "shortcode": "HT",
+    "title": "暖房",
+    "countgroup": null,
+    "sumclass": "consTotal"
+  },
+  {
+    "code": "consCOsum",
+    "shortcode": "CO",
+    "title": "冷房除湿",
+    "countgroup": null,
+    "sumclass": "consTotal"
+  },
+  {
+    "code": "consAC",
+    "shortcode": null,
+    "title": "個別冷暖房",
+    "countgroup": "RM",
+    "sumclass": null
+  },
+  {
+    "code": "consACheat",
+    "shortcode": null,
+    "title": "個別暖房",
+    "countgroup": "RM",
+    "sumclass": "consHTsum"
+  },
+  {
+    "code": "consACcool",
+    "shortcode": null,
+    "title": "個別冷房",
+    "countgroup": "RM",
+    "sumclass": "consCOsum"
+  },
+  {
+    "code": "consRFsum",
+    "shortcode": "RF",
+    "title": "冷蔵庫",
+    "countgroup": null,
+    "sumclass": "consTotal"
+  },
+  {
+    "code": "consRF",
+    "shortcode": null,
+    "title": "冷蔵庫",
+    "countgroup": "RF",
+    "sumclass": "consRFsum"
+  },
+  {
+    "code": "consCKsum",
+    "shortcode": "CK",
+    "title": "調理",
+    "countgroup": null,
+    "sumclass": "consTotal"
+  },
+  {
+    "code": "consCKcook",
+    "shortcode": null,
+    "title": "調理",
+    "countgroup": null,
+    "sumclass": "consCKsum"
+  },
+  {
+    "code": "consCKplug",
+    "shortcode": null,
+    "title": "待機",
+    "countgroup": null,
+    "sumclass": "consCKsum"
+  },
+  {
+    "code": "consCKpot",
+    "shortcode": null,
+    "title": "ポット",
+    "countgroup": null,
+    "sumclass": "consCKsum"
+  },
+  {
+    "code": "consCKrice",
+    "shortcode": null,
+    "title": "炊飯ジャー",
+    "countgroup": null,
+    "sumclass": "consCKsum"
+  },
+  {
+    "code": "consDRsum",
+    "shortcode": "DR",
+    "title": "洗濯乾燥",
+    "countgroup": null,
+    "sumclass": "consTotal"
+  },
+  {
+    "code": "consDRwash",
+    "shortcode": null,
+    "title": "洗濯",
+    "countgroup": null,
+    "sumclass": "consDRsum"
+  },
+  {
+    "code": "consDRdry",
+    "shortcode": null,
+    "title": "乾燥",
+    "countgroup": null,
+    "sumclass": "consDRsum"
+  },
+  {
+    "code": "consLIsum",
+    "shortcode": "LI",
+    "title": "照明",
+    "countgroup": null,
+    "sumclass": "consTotal"
+  },
+  {
+    "code": "consLI",
+    "shortcode": null,
+    "title": "照明",
+    "countgroup": "LI",
+    "sumclass": "consLIsum"
+  },
+  {
+    "code": "consTVsum",
+    "shortcode": "TV",
+    "title": "テレビ",
+    "countgroup": null,
+    "sumclass": "consTotal"
+  },
+  {
+    "code": "consTV",
+    "shortcode": null,
+    "title": "テレビ",
+    "countgroup": "TV",
+    "sumclass": "consTVsum"
+  },
+  {
+    "code": "consCRsum",
+    "shortcode": "CR",
+    "title": "交通",
+    "countgroup": null,
+    "sumclass": "consTotal"
+  },
+  {
+    "code": "consCR",
+    "shortcode": null,
+    "title": "車",
+    "countgroup": "CR",
+    "sumclass": "consCRsum"
+  },
+  {
+    "code": "consCRtrip",
+    "shortcode": null,
+    "title": "交通",
+    "countgroup": "TR",
+    "sumclass": "consCRsum"
+  },
+  {
+    "code": "consOTsum",
+    "shortcode": "OT",
+    "title": "待機・その他",
+    "countgroup": null,
+    "sumclass": "consTotal"
+  },
+  {
+    "code": "consOT",
+    "shortcode": null,
+    "title": "待機・その他",
+    "countgroup": "OT",
+    "sumclass": "consOTsum"
+  }
+]

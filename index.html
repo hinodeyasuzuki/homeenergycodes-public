@@ -1,0 +1,261 @@
+<title>Home Energy Codes API</title>
+<meta name="description" content="家庭の省エネ診断における診断項目(input)・省エネ対策項目(measures)の基本マスタデータを公開するJSON API">
+<style>
+  :root {
+    color-scheme: light dark;
+    --bg: #ffffff;
+    --fg: #1a1d21;
+    --muted: #5b6270;
+    --card: #f6f7f9;
+    --border: #e2e5ea;
+    --accent: #1a6b4a;
+    --code-bg: #101418;
+    --code-fg: #d7dee5;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #14171a;
+      --fg: #eceef0;
+      --muted: #9aa2ad;
+      --card: #1c2024;
+      --border: #2b3036;
+      --accent: #4fbf8e;
+      --code-bg: #0b0e11;
+      --code-fg: #d7dee5;
+    }
+  }
+  :root[data-theme="light"] {
+    --bg: #ffffff; --fg: #1a1d21; --muted: #5b6270; --card: #f6f7f9;
+    --border: #e2e5ea; --accent: #1a6b4a; --code-bg: #101418; --code-fg: #d7dee5;
+  }
+  :root[data-theme="dark"] {
+    --bg: #14171a; --fg: #eceef0; --muted: #9aa2ad; --card: #1c2024;
+    --border: #2b3036; --accent: #4fbf8e; --code-bg: #0b0e11; --code-fg: #d7dee5;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--fg);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Hiragino Sans", "Yu Gothic", sans-serif;
+    line-height: 1.7;
+  }
+  main {
+    max-width: 860px;
+    margin: 0 auto;
+    padding: 48px 20px 80px;
+  }
+  h1 { font-size: 1.7rem; margin-bottom: 4px; }
+  h2 { font-size: 1.2rem; margin-top: 2.5rem; border-bottom: 1px solid var(--border); padding-bottom: 8px; }
+  .lead { color: var(--muted); margin-top: 0; }
+  .badge {
+    display: inline-block;
+    font-size: 0.72rem;
+    padding: 2px 8px;
+    border-radius: 999px;
+    background: var(--card);
+    border: 1px solid var(--border);
+    color: var(--muted);
+    margin-right: 6px;
+  }
+  table { width: 100%; border-collapse: collapse; margin: 1rem 0; font-size: 0.92rem; }
+  th, td { text-align: left; padding: 8px 10px; border-bottom: 1px solid var(--border); vertical-align: top; }
+  th { color: var(--muted); font-weight: 600; }
+  code {
+    background: var(--card);
+    border: 1px solid var(--border);
+    padding: 1px 6px;
+    border-radius: 4px;
+    font-size: 0.88em;
+  }
+  pre {
+    background: var(--code-bg);
+    color: var(--code-fg);
+    padding: 16px;
+    border-radius: 8px;
+    overflow-x: auto;
+    font-size: 0.85rem;
+  }
+  pre code { background: none; border: none; padding: 0; color: inherit; }
+  .endpoint {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 12px 14px;
+    margin: 10px 0;
+  }
+  .endpoint a { color: var(--accent); font-weight: 600; text-decoration: none; word-break: break-all; }
+  .endpoint a:hover { text-decoration: underline; }
+  .method { font-size: 0.72rem; font-weight: 700; color: var(--accent); border: 1px solid var(--accent); border-radius: 4px; padding: 1px 6px; flex-shrink: 0; }
+  footer { margin-top: 4rem; color: var(--muted); font-size: 0.85rem; }
+  ul { padding-left: 1.3em; }
+</style>
+
+<main>
+  <h1>Home Energy Codes API</h1>
+  <p class="lead">家庭の省エネ診断アプリ向けの基本マスタデータ(診断項目 / 省エネ対策項目)を提供する、読み取り専用の静的JSON APIです。</p>
+  <span class="badge">認証不要</span>
+  <span class="badge">CORS許可</span>
+  <span class="badge">静的ホスティング(GitHub Pages)</span>
+
+  <h2>エンドポイント</h2>
+
+  <div class="endpoint">
+    <span class="method">GET</span>
+    <a href="api/v1/input.json">/api/v1/input.json</a>
+    — 診断の入力項目(質問と選択肢)一覧
+  </div>
+  <div class="endpoint">
+    <span class="method">GET</span>
+    <a href="api/v1/measures.json">/api/v1/measures.json</a>
+    — 省エネ対策項目一覧
+  </div>
+  <div class="endpoint">
+    <span class="method">GET</span>
+    <a href="api/v1/cons.json">/api/v1/cons.json</a>
+    — 消費量カテゴリ(cons)のマスタ。input.jsonの<code>cons</code>、measures.jsonの<code>refCons</code>から参照される
+  </div>
+  <div class="endpoint">
+    <span class="method">GET</span>
+    <a href="api/v1/energy.json">/api/v1/energy.json</a>
+    — エネルギー種別(電力・都市ガス・灯油など)のマスタ
+  </div>
+  <div class="endpoint">
+    <span class="method">GET</span>
+    <a href="api/v1/energycost.json">/api/v1/energycost.json</a>
+    — エネルギー種別ごとの料金項目コードのマスタ
+  </div>
+  <div class="endpoint">
+    <span class="method">GET</span>
+    <a href="api/v1/applianceCategory.json">/api/v1/applianceCategory.json</a>
+    — 機器カテゴリー(自動車・テレビ・冷蔵庫・給湯器など)のマスタ
+  </div>
+  <div class="endpoint">
+    <span class="method">GET</span>
+    <a href="api/v1/applianceType.json">/api/v1/applianceType.json</a>
+    — 詳細機種(電気自動車・エコキュート・エネファームなど)のマスタ
+  </div>
+  <div class="endpoint">
+    <span class="method">GET</span>
+    <a href="api/v1/meta.json">/api/v1/meta.json</a>
+    — 件数・生成日時などのメタ情報
+  </div>
+  <div class="endpoint">
+    <span class="method">GET</span>
+    <a href="api/v1/input.csv">/api/v1/input.csv</a>
+    — input.json の元CSV(生データ)
+  </div>
+  <div class="endpoint">
+    <span class="method">GET</span>
+    <a href="api/v1/measures.csv">/api/v1/measures.csv</a>
+    — measures.json の元CSV(生データ)
+  </div>
+  <div class="endpoint">
+    <span class="method">GET</span>
+    <a href="api/v1/cons.csv">/api/v1/cons.csv</a>
+    — cons.json の元CSV(生データ)
+  </div>
+  <div class="endpoint">
+    <span class="method">GET</span>
+    <a href="api/v1/energy.csv">/api/v1/energy.csv</a>
+    — energy.json の元CSV(生データ)
+  </div>
+  <div class="endpoint">
+    <span class="method">GET</span>
+    <a href="api/v1/energycost.csv">/api/v1/energycost.csv</a>
+    — energycost.json の元CSV(生データ)
+  </div>
+  <div class="endpoint">
+    <span class="method">GET</span>
+    <a href="api/v1/applianceCategory.csv">/api/v1/applianceCategory.csv</a>
+    — applianceCategory.json の元CSV(生データ)
+  </div>
+  <div class="endpoint">
+    <span class="method">GET</span>
+    <a href="api/v1/applianceType.csv">/api/v1/applianceType.csv</a>
+    — applianceType.json の元CSV(生データ)
+  </div>
+
+  <h2>使い方</h2>
+  <pre><code>fetch("https://&lt;ユーザー名&gt;.github.io/&lt;リポジトリ名&gt;/api/v1/input.json")
+  .then(res =&gt; res.json())
+  .then(items =&gt; console.log(items));</code></pre>
+  <p>すべてのレスポンスはCORSヘッダ(<code>Access-Control-Allow-Origin: *</code>)付きで配信されるため、ブラウザから直接どのオリジンからでも取得できます。</p>
+
+  <h2>input.json のフィールド</h2>
+  <table>
+    <tr><th>フィールド</th><th>説明</th></tr>
+    <tr><td><code>id</code></td><td>項目ID(例: <code>i001</code>)</td></tr>
+    <tr><td><code>title</code></td><td>項目名</td></tr>
+    <tr><td><code>cons</code></td><td>紐づく消費量カテゴリキー</td></tr>
+    <tr><td><code>unit</code></td><td>単位(空の場合あり)</td></tr>
+    <tr><td><code>text</code></td><td>質問文</td></tr>
+    <tr><td><code>inputType</code></td><td>入力タイプ識別子(<code>sel***</code> = 選択式、<code>text</code> = 自由記述)</td></tr>
+    <tr><td><code>options</code></td><td>選択肢の配列 <code>{disp, val}</code>。<code>val:-1</code> は「選んで下さい」の未選択プレースホルダー</td></tr>
+  </table>
+  <p style="color:var(--muted)">
+    <code>options</code> が空配列の項目(都道府県など)は、選択肢が別マスタ(都道府県リスト等)から動的に供給される想定の項目です。<br>
+    <code>note</code> フィールドがある項目は、元データの不整合(壊れたExcel参照 <code>#REF!</code>)を <code>text</code> 型に補正したことを示します。
+  </p>
+
+  <h2>measures.json のフィールド</h2>
+  <table>
+    <tr><th>フィールド</th><th>説明</th></tr>
+    <tr><td><code>mid</code></td><td>対策ID(数値)</td></tr>
+    <tr><td><code>name</code></td><td>対策の内部名</td></tr>
+    <tr><td><code>title</code></td><td>対策の説明文</td></tr>
+    <tr><td><code>refCons</code></td><td>対象となる消費量カテゴリキー</td></tr>
+    <tr><td><code>titleShort</code></td><td>短縮タイトル</td></tr>
+    <tr><td><code>easyness</code></td><td>取り組みやすさスコア</td></tr>
+    <tr><td><code>level</code></td><td>レベル(未設定はnull)</td></tr>
+    <tr><td><code>figNum</code></td><td>関連図番号</td></tr>
+    <tr><td><code>lifeTime</code></td><td>耐用年数。多くは年数(数値)だが、一部機器は使用時間(例: <code>"40000h"</code>)の文字列</td></tr>
+    <tr><td><code>price</code></td><td>概算費用(円)</td></tr>
+    <tr><td><code>season</code></td><td>関連季節キー</td></tr>
+  </table>
+
+  <h2>cons.json のフィールド</h2>
+  <table>
+    <tr><th>フィールド</th><th>説明</th></tr>
+    <tr><td><code>code</code></td><td>カテゴリキー(<code>input.json</code>の<code>cons</code>、<code>measures.json</code>の<code>refCons</code>と対応)</td></tr>
+    <tr><td><code>shortcode</code></td><td>短縮コード(未設定はnull)</td></tr>
+    <tr><td><code>title</code></td><td>カテゴリ名</td></tr>
+    <tr><td><code>countgroup</code></td><td>集計グループ(未設定はnull)</td></tr>
+    <tr><td><code>sumclass</code></td><td>親カテゴリの<code>code</code>。ルートカテゴリはnull</td></tr>
+  </table>
+
+  <h2>energy.json / energycost.json のフィールド</h2>
+  <table>
+    <tr><th>フィールド</th><th>説明</th></tr>
+    <tr><td><code>code</code></td><td>コード(例: <code>elect</code> / <code>electp</code>)</td></tr>
+    <tr><td><code>name</code></td><td>名称(例: 購入電力 / 購入電力料金)</td></tr>
+    <tr><td><code>unit</code></td><td>単位(<code>energy.json</code>のみ。例: kWh, m3, L)</td></tr>
+  </table>
+  <p style="color:var(--muted)">
+    <code>energycost.json</code>の<code>code</code>は<code>energy.json</code>の<code>code</code>に接尾辞<code>p</code>(price)を付けた対応関係になっています(例: <code>elect</code> ⇔ <code>electp</code>)。
+  </p>
+
+  <h2>applianceCategory.json / applianceType.json のフィールド</h2>
+  <table>
+    <tr><th>フィールド</th><th>説明</th></tr>
+    <tr><td><code>code</code></td><td>コード</td></tr>
+    <tr><td><code>title</code></td><td>名称</td></tr>
+    <tr><td><code>cons</code></td><td>(applianceCategoryのみ)対応する<code>cons.json</code>の<code>code</code></td></tr>
+    <tr><td><code>categoryCode</code></td><td>(applianceTypeのみ)所属する<code>applianceCategory.json</code>の<code>code</code></td></tr>
+    <tr><td><code>energyCode</code></td><td>(applianceTypeのみ)主に消費する<code>energy.json</code>の<code>code</code>。太陽熱温水器など燃料を購入しない機種はnull</td></tr>
+  </table>
+  <p style="color:var(--muted)">
+    <code>applianceType.json</code>の<code>title</code>は入力項目(<code>input.json</code>の給湯器の種類・車の種類・照明の種類など)や対策項目(<code>measures.json</code>)に登場する既存の名称に揃えています。
+    網羅性より既存データとの整合性を優先しているため、家庭にある全ての機種を尽くしているわけではありません。
+  </p>
+
+  <h2>更新方法</h2>
+  <p>このAPIは <code>input.csv</code> / <code>measures.csv</code> を正データとし、<code>build.py</code> で <code>docs/api/v1/</code> 配下のJSONを生成しています。CSVを更新した場合は <code>python3 build.py</code> を再実行してからコミット・公開してください。</p>
+
+  <footer>
+    Home Energy Codes / 家庭の省エネ診断 基本項目API — 生成日時は <a href="api/v1/meta.json">meta.json</a> を参照
+  </footer>
+</main>

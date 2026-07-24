@@ -1,0 +1,34 @@
+[
+  {
+    "code": "electp",
+    "name": "購入電力料金"
+  },
+  {
+    "code": "nagasp",
+    "name": "都市ガス料金"
+  },
+  {
+    "code": "lpgasp",
+    "name": "LPガス料金"
+  },
+  {
+    "code": "waterp",
+    "name": "水道料金"
+  },
+  {
+    "code": "kerosp",
+    "name": "灯油料金"
+  },
+  {
+    "code": "gasolp",
+    "name": "ガソリン料金"
+  },
+  {
+    "code": "lightp",
+    "name": "軽油料金"
+  },
+  {
+    "code": "selelecp",
+    "name": "売電価格"
+  }
+]
