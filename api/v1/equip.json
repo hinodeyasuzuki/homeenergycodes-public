@@ -3528,15 +3528,6 @@
     "energyFlag": "2"
   },
   {
-    "id": "96",
-    "title": "柱・根太・鉄骨",
-    "level": 3,
-    "parentId": "90",
-    "level1Id": "0",
-    "level2Id": "90",
-    "energyFlag": "2"
-  },
-  {
     "id": "900",
     "title": "移動",
     "level": 1,

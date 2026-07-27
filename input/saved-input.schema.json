@@ -5,6 +5,7 @@
   "type": "object",
   "required": [
     "input",
+    "inputCounts",
     "room",
     "products",
     "energy",
@@ -28,6 +29,10 @@
         }
       },
       "additionalProperties": true
+    },
+    "inputCounts": {
+      "type": "object",
+      "additionalProperties": { "type": "integer", "minimum": 0 }
     },
     "room": {
       "type": "object",

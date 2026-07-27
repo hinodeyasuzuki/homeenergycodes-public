@@ -8,11 +8,12 @@
 
 ## トップレベル構造
 
-保存データは次の7キーを持つ1つのオブジェクトです。
+保存データは次の8キーを持つ1つのオブジェクトです。
 
 ```json
 {
   "input": {},
+  "inputCounts": {},
   "room": {},
   "products": {},
   "energy": {},
@@ -27,6 +28,9 @@
 - input
   - キー: `i***` (診断項目ID)
   - 値: 数値 または 数値配列
+- inputCounts
+  - キー: cons.jsonの`countgroup`(なければcons自身のcode)。例 `RM`, `LI`, `TV`, `RF`, `CR`, `TR`, `consHWtoilet`
+  - 値: 0以上の整数(そのグループに属する入力項目の入力欄の数)
 - room
   - キー: `r***`
   - 値: `{ name, area, connected_room_ids }`
