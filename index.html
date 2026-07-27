@@ -143,6 +143,7 @@
     <a href="api/v1/meta.json">/api/v1/meta.json</a>
     — 件数・生成日時などのメタ情報
   </div>
+  <hr>
   <div class="endpoint">
     <span class="method">GET</span>
     <a href="input/saved-input.schema.json">/input/saved-input.schema.json</a>
@@ -153,6 +154,7 @@
     <a href="input/saved-input-format.md">/input/saved-input-format.md</a>
     — 保存データ(JSON)の定義と解説
   </div>
+  <hr>
   <div class="endpoint">
     <span class="method">GET</span>
     <a href="api/v1/input.csv">/api/v1/input.csv</a>
@@ -190,7 +192,7 @@
   </div>
 
   <h2>使い方</h2>
-  <pre><code>fetch("https://&lt;ユーザー名&gt;.github.io/&lt;リポジトリ名&gt;/api/v1/input.json")
+  <pre><code>fetch("https://hinodeyasuzuki.github.io/homeenergycodes-public/api/v1/input.json")
   .then(res =&gt; res.json())
   .then(items =&gt; console.log(items));</code></pre>
   <p>すべてのレスポンスはCORSヘッダ(<code>Access-Control-Allow-Origin: *</code>)付きで配信されるため、ブラウザから直接どのオリジンからでも取得できます。</p>

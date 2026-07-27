@@ -32,7 +32,7 @@
   - 値: `{ name, area, connected_room_ids }`
 - products
   - キー: `e***`
-  - 値: `{ name, equip_id, purchaseyear, purchasemonth, method, manufactureyear, room_id, watt, usagetime, frequency, repairlog_ids, picture_ids, memory }`
+  - 値: `{ name, equip_id, purchaseyear, purchasemonth, method, manufactureyear, room_id, watt, usagetime, frequency, enduseyear, favorite, repairlog_ids, picture_ids, memory }`
 - energy / energycost
   - キー: `yyyymm` (例: `202612`)
   - 値: コードをキーにした数値マップ
@@ -41,7 +41,7 @@
   - 値: `{ year, month, day, equip_id, about, picture_ids, created_at }`
 - picture
   - キー: `p***`
-  - 値: `{ picdata, created_at }`
+  - 値: `{ picdata, memo, created_at }`（`picdata` はリサイズ・JPEG圧縮済みのdata URL。詳細は `docs/superpowers/specs/2026-07-27-photo-capture-design.md` 参照）
 
 ## マスタ参照
 

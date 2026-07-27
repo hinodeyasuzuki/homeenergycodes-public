@@ -64,6 +64,8 @@
             "watt",
             "usagetime",
             "frequency",
+            "enduseyear",
+            "favorite",
             "repairlog_ids",
             "picture_ids",
             "memory"
@@ -80,6 +82,8 @@
             "watt": { "type": ["number", "null"] },
             "usagetime": { "type": ["number", "null"] },
             "frequency": { "type": ["number", "null"] },
+            "enduseyear": { "type": ["number", "null"] },
+            "favorite": { "type": "boolean" },
             "repairlog_ids": {
               "type": "array",
               "items": { "type": "string", "pattern": "^l[0-9]+$" }
@@ -142,10 +146,11 @@
       "patternProperties": {
         "^p[0-9]+$": {
           "type": "object",
-          "required": ["picdata", "created_at"],
+          "required": ["picdata", "memo", "created_at"],
           "additionalProperties": false,
           "properties": {
             "picdata": { "type": "string" },
+            "memo": { "type": "string" },
             "created_at": { "type": "string", "format": "date-time" }
           }
         }

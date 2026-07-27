@@ -379,7 +379,7 @@
   },
   {
     "id": "154",
-    "title": "カトラリー（箸・フォーク・スプーン）",
+    "title": "箸・スプーン・フォーク類",
     "level": 3,
     "parentId": "150",
     "level1Id": "100",
@@ -3475,7 +3475,7 @@
   },
   {
     "id": "90",
-    "title": "住宅構造",
+    "title": "住宅・構造",
     "level": 2,
     "parentId": "0",
     "level1Id": "0",
@@ -3484,7 +3484,7 @@
   },
   {
     "id": "91",
-    "title": "床下調湿",
+    "title": "住宅",
     "level": 3,
     "parentId": "90",
     "level1Id": "0",
@@ -3493,7 +3493,7 @@
   },
   {
     "id": "92",
-    "title": "耐震",
+    "title": "小屋",
     "level": 3,
     "parentId": "90",
     "level1Id": "0",
@@ -3502,6 +3502,33 @@
   },
   {
     "id": "93",
+    "title": "外構",
+    "level": 3,
+    "parentId": "90",
+    "level1Id": "0",
+    "level2Id": "90",
+    "energyFlag": "2"
+  },
+  {
+    "id": "94",
+    "title": "柱・根太・鉄骨",
+    "level": 3,
+    "parentId": "90",
+    "level1Id": "0",
+    "level2Id": "90",
+    "energyFlag": "2"
+  },
+  {
+    "id": "95",
+    "title": "耐震設備",
+    "level": 3,
+    "parentId": "90",
+    "level1Id": "0",
+    "level2Id": "90",
+    "energyFlag": "2"
+  },
+  {
+    "id": "96",
     "title": "柱・根太・鉄骨",
     "level": 3,
     "parentId": "90",
