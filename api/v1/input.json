@@ -336,131 +336,131 @@
     "inputType": "sel021",
     "options": [
       {
-        "disp": "",
+        "disp": "選んで下さい",
         "val": -1
       },
       {
-        "disp": "",
+        "disp": "北海道",
         "val": 1
       },
       {
-        "disp": "",
+        "disp": "青森",
         "val": 2
       },
       {
-        "disp": "",
+        "disp": "岩手",
         "val": 3
       },
       {
-        "disp": "",
+        "disp": "宮城",
         "val": 4
       },
       {
-        "disp": "",
+        "disp": "秋田",
         "val": 5
       },
       {
-        "disp": "",
+        "disp": "山形",
         "val": 6
       },
       {
-        "disp": "",
+        "disp": "福島",
         "val": 7
       },
       {
-        "disp": "",
+        "disp": "茨城",
         "val": 8
       },
       {
-        "disp": "",
+        "disp": "栃木",
         "val": 9
       },
       {
-        "disp": "",
+        "disp": "群馬",
         "val": 10
       },
       {
-        "disp": "",
+        "disp": "埼玉",
         "val": 11
       },
       {
-        "disp": "",
+        "disp": "千葉",
         "val": 12
       },
       {
-        "disp": "",
+        "disp": "東京",
         "val": 13
       },
       {
-        "disp": "",
+        "disp": "神奈川",
         "val": 14
       },
       {
-        "disp": "",
+        "disp": "新潟",
         "val": 15
       },
       {
-        "disp": "",
+        "disp": "富山",
         "val": 16
       },
       {
-        "disp": "",
+        "disp": "石川",
         "val": 17
       },
       {
-        "disp": "",
+        "disp": "福井",
         "val": 18
       },
       {
-        "disp": "",
+        "disp": "山梨",
         "val": 19
       },
       {
-        "disp": "",
+        "disp": "長野",
         "val": 20
       },
       {
-        "disp": "",
+        "disp": "岐阜",
         "val": 21
       },
       {
-        "disp": "",
+        "disp": "静岡",
         "val": 22
       },
       {
-        "disp": "",
+        "disp": "愛知",
         "val": 23
       },
       {
-        "disp": "",
+        "disp": "三重",
         "val": 24
       },
       {
-        "disp": "",
+        "disp": "滋賀",
         "val": 25
       },
       {
-        "disp": "",
+        "disp": "京都",
         "val": 26
       },
       {
-        "disp": "",
+        "disp": "大阪",
         "val": 27
       },
       {
-        "disp": "",
+        "disp": "兵庫",
         "val": 28
       },
       {
-        "disp": "",
+        "disp": "奈良",
         "val": 29
       },
       {
-        "disp": "",
+        "disp": "和歌山",
         "val": 30
       },
       {
-        "disp": "",
+        "disp": "鳥取",
         "val": 31
       },
       {
