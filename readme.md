@@ -1,6 +1,8 @@
 # Home Energy Codes Public
 
-このリポジトリは、家庭の省エネ診断アプリ向けに利用できる、読み取り専用の静的 JSON API です。
+　このリポジトリは、家庭のエコライフ情報を記録するための情報定義として利用できる、読み取り専用の静的 JSON API です。
+
+　省エネ診断に関する項目以外に、家庭のエネルギー消費量・光熱費の保存項目、修理・中古品購入などを評価するための機器分類、など、家庭のエコ生活に関する定義を取得できます。
 
 ## 概要
 
@@ -12,9 +14,9 @@
 
 主なデータソースは以下のとおりです。
 
-- 入力項目: `api/v1/input.json`
+- 省エネ診断入力項目: `api/v1/input.json`
 - 省エネ対策項目: `api/v1/measures.json`
-- 消費量カテゴリ: `api/v1/cons.json`
+- 省エネ分野カテゴリ: `api/v1/cons.json`
 - エネルギー種別: `api/v1/energy.json`
 - エネルギー料金項目: `api/v1/energycost.json`
 - 機器カテゴリ: `api/v1/applianceCategory.json`
@@ -32,6 +34,8 @@
 curl https://hinodeyasuzuki.github.io/homeenergycodes-public/api/v1/input.json
 ```
 
+サンプルプログラムは https://hinodeyasuzuki.github.io/myecoliferecords/ で公開されています。
+
 または、JavaScript から次のように取得できます。
 
 ```javascript
@@ -40,8 +44,4 @@ fetch("https://hinodeyasuzuki.github.io/homeenergycodes-public/api/v1/input.json
   .then((data) => console.log(data));
 ```
 
-## 特色
 
-- 静的ファイルのみで構成
-- 追加サーバー構築不要
-- API の利用・閲覧が容易
