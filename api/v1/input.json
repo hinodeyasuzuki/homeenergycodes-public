@@ -251,7 +251,7 @@
     "id": "i008",
     "title": "居室数",
     "cons": "consTotal",
-    "unit": "部屋",
+    "unit": "",
     "text": "家にある部屋の数は",
     "inputType": "sel008",
     "options": [
@@ -336,131 +336,131 @@
     "inputType": "sel021",
     "options": [
       {
-        "disp": "選んで下さい",
+        "disp": "",
         "val": -1
       },
       {
-        "disp": "北海道",
+        "disp": "",
         "val": 1
       },
       {
-        "disp": "青森",
+        "disp": "",
         "val": 2
       },
       {
-        "disp": "岩手",
+        "disp": "",
         "val": 3
       },
       {
-        "disp": "宮城",
+        "disp": "",
         "val": 4
       },
       {
-        "disp": "秋田",
+        "disp": "",
         "val": 5
       },
       {
-        "disp": "山形",
+        "disp": "",
         "val": 6
       },
       {
-        "disp": "福島",
+        "disp": "",
         "val": 7
       },
       {
-        "disp": "茨城",
+        "disp": "",
         "val": 8
       },
       {
-        "disp": "栃木",
+        "disp": "",
         "val": 9
       },
       {
-        "disp": "群馬",
+        "disp": "",
         "val": 10
       },
       {
-        "disp": "埼玉",
+        "disp": "",
         "val": 11
       },
       {
-        "disp": "千葉",
+        "disp": "",
         "val": 12
       },
       {
-        "disp": "東京",
+        "disp": "",
         "val": 13
       },
       {
-        "disp": "神奈川",
+        "disp": "",
         "val": 14
       },
       {
-        "disp": "新潟",
+        "disp": "",
         "val": 15
       },
       {
-        "disp": "富山",
+        "disp": "",
         "val": 16
       },
       {
-        "disp": "石川",
+        "disp": "",
         "val": 17
       },
       {
-        "disp": "福井",
+        "disp": "",
         "val": 18
       },
       {
-        "disp": "山梨",
+        "disp": "",
         "val": 19
       },
       {
-        "disp": "長野",
+        "disp": "",
         "val": 20
       },
       {
-        "disp": "岐阜",
+        "disp": "",
         "val": 21
       },
       {
-        "disp": "静岡",
+        "disp": "",
         "val": 22
       },
       {
-        "disp": "愛知",
+        "disp": "",
         "val": 23
       },
       {
-        "disp": "三重",
+        "disp": "",
         "val": 24
       },
       {
-        "disp": "滋賀",
+        "disp": "",
         "val": 25
       },
       {
-        "disp": "京都",
+        "disp": "",
         "val": 26
       },
       {
-        "disp": "大阪",
+        "disp": "",
         "val": 27
       },
       {
-        "disp": "兵庫",
+        "disp": "",
         "val": 28
       },
       {
-        "disp": "奈良",
+        "disp": "",
         "val": 29
       },
       {
-        "disp": "和歌山",
+        "disp": "",
         "val": 30
       },
       {
-        "disp": "鳥取",
+        "disp": "",
         "val": 31
       },
       {
@@ -2061,7 +2061,7 @@
     "id": "i110",
     "title": "風呂のお湯を温め直す方法",
     "cons": "consHWtub",
-    "unit": "割",
+    "unit": "",
     "text": "追い焚きはどのようにしていますか",
     "inputType": "sel110",
     "options": [
@@ -2091,7 +2091,7 @@
     "id": "i111",
     "title": "風呂のお湯が少なくなったとき",
     "cons": "consHWtub",
-    "unit": "割",
+    "unit": "",
     "text": "浴槽のお湯が少なくなったときにどうしますか",
     "inputType": "sel111",
     "options": [
@@ -2125,7 +2125,7 @@
     "id": "i112",
     "title": "シャワーのお湯が出るまで",
     "cons": "consHWshower",
-    "unit": "秒",
+    "unit": "",
     "text": "最初にお湯が出てくるまでの時間はどのくらいですか",
     "inputType": "sel112",
     "options": [
@@ -2722,7 +2722,7 @@
     "id": "i212",
     "title": "部屋の広さ",
     "cons": "consACheat",
-    "unit": "m2",
+    "unit": "",
     "text": "冷暖房する部屋の広さを答えてください。吹き抜けがある場合には、その分を2倍してください。",
     "inputType": "sel212",
     "options": [
@@ -2776,7 +2776,7 @@
     "id": "i213",
     "title": "窓ガラスの大きさ",
     "cons": "consACheat",
-    "unit": "m2",
+    "unit": "",
     "text": "サッシや窓のガラスの大きさを、その部屋の合計として答えてください。",
     "inputType": "sel213",
     "options": [
@@ -2814,7 +2814,7 @@
     "id": "i214",
     "title": "窓ガラスの種類",
     "cons": "consACheat",
-    "unit": "w/m2K",
+    "unit": "",
     "text": "窓ガラスの種類",
     "inputType": "sel214",
     "options": [
@@ -3342,7 +3342,7 @@
     "id": "i241",
     "title": "電気ストーブの使用時間",
     "cons": "consACheat",
-    "unit": "",
+    "unit": "時間/日",
     "text": "電気ストーブ・オイルヒータの使用時間",
     "inputType": "sel241",
     "options": [
@@ -3498,7 +3498,7 @@
     "id": "i245",
     "title": "朝方寒さを感じること",
     "cons": "consHTsum",
-    "unit": "ヶ月",
+    "unit": "",
     "text": "最も実感できる寒さを選んで下さい",
     "inputType": "sel245",
     "options": [
@@ -4366,7 +4366,7 @@
     "id": "i284",
     "title": "セントラル暖房期間",
     "cons": "consHTcold",
-    "unit": "",
+    "unit": "ヶ月",
     "text": "セントラル暖房を使う期間は",
     "inputType": "sel284",
     "options": [
@@ -4494,7 +4494,7 @@
     "id": "i288",
     "title": "ロードヒーティング面積",
     "cons": "consHTcold",
-    "unit": "",
+    "unit": "m2",
     "text": "ロードヒーティング面積",
     "inputType": "sel288",
     "options": [
@@ -4770,7 +4770,7 @@
     "id": "i320",
     "title": "日中の在宅",
     "cons": "consTotal",
-    "unit": "人",
+    "unit": "",
     "text": "日中にだれか在宅していますか？",
     "inputType": "sel320",
     "options": [
@@ -4978,7 +4978,7 @@
     "id": "i501",
     "title": "リビングの照明",
     "cons": "consLIsum",
-    "unit": "W",
+    "unit": "",
     "text": "リビングの照明器具には、主に何を使っていますか。",
     "inputType": "sel501",
     "options": [
@@ -5418,7 +5418,7 @@
     "id": "i633",
     "title": "テレビの時間",
     "cons": "consTV",
-    "unit": "年",
+    "unit": "時間",
     "text": "テレビの時間",
     "inputType": "sel633",
     "options": [
@@ -5724,7 +5724,7 @@
     "id": "i802",
     "title": "調理の頻度",
     "cons": "consCKcook",
-    "unit": "割",
+    "unit": "",
     "text": "調理の頻度",
     "inputType": "sel802",
     "options": [
@@ -5762,7 +5762,7 @@
     "id": "i811",
     "title": "ジャーの保温",
     "cons": "consCKrice",
-    "unit": "",
+    "unit": "時間",
     "text": "炊飯ジャーの保温をしていますか",
     "inputType": "sel811",
     "options": [
@@ -5792,7 +5792,7 @@
     "id": "i821",
     "title": "ポットの保温",
     "cons": "consCKpot",
-    "unit": "",
+    "unit": "時間",
     "text": "ポットの保温をしていますか",
     "inputType": "sel821",
     "options": [
@@ -5848,7 +5848,7 @@
     "id": "i901",
     "title": "車の保有台数",
     "cons": "consCRsum",
-    "unit": "",
+    "unit": "台",
     "text": "車の保有台数",
     "inputType": "sel901",
     "options": [
@@ -5886,7 +5886,7 @@
     "id": "i902",
     "title": "スクータ・バイクの保有台数",
     "cons": "consCRsum",
-    "unit": "",
+    "unit": "台",
     "text": "スクータ・バイクの保有台数",
     "inputType": "sel902",
     "options": [
@@ -5966,7 +5966,7 @@
     "id": "i912",
     "title": "車の燃費",
     "cons": "consCR",
-    "unit": "",
+    "unit": "km/L",
     "text": "車の燃費",
     "inputType": "sel912",
     "options": [
@@ -6586,7 +6586,7 @@
     "id": "i941",
     "title": "ガソリン車",
     "cons": "consCRsum",
-    "unit": "",
+    "unit": "台",
     "text": "ガソリン車を何台お持ちですか",
     "inputType": "sel941",
     "options": [
@@ -6616,7 +6616,7 @@
     "id": "i942",
     "title": "ハイブリッド車",
     "cons": "consCRsum",
-    "unit": "",
+    "unit": "台",
     "text": "ハイブリッド車を何台お持ちですか",
     "inputType": "sel942",
     "options": [
@@ -6646,7 +6646,7 @@
     "id": "i943",
     "title": "電気自動車",
     "cons": "consCRsum",
-    "unit": "",
+    "unit": "台",
     "text": "電気自動車を何台お持ちですか",
     "inputType": "sel943",
     "options": [

@@ -15,6 +15,11 @@
   ],
   "additionalProperties": false,
   "properties": {
+    "pictureBlobs": {
+      "type": "object",
+      "description": "picture の各IDに対応する画像データURL。通常はIndexedDBに保存されており、JSONエクスポート/インポート時のみこのキーとして同梱される(必須ではない)。",
+      "additionalProperties": { "type": "string" }
+    },
     "input": {
       "type": "object",
       "patternProperties": {
@@ -151,12 +156,12 @@
       "patternProperties": {
         "^p[0-9]+$": {
           "type": "object",
-          "required": ["picdata", "memo", "created_at"],
+          "required": ["memo", "created_at", "sourceUrl"],
           "additionalProperties": false,
           "properties": {
-            "picdata": { "type": "string" },
             "memo": { "type": "string" },
-            "created_at": { "type": "string", "format": "date-time" }
+            "created_at": { "type": "string", "format": "date-time" },
+            "sourceUrl": { "type": "string" }
           }
         }
       },
