@@ -459,24 +459,6 @@
     "energyFlag": "2"
   },
   {
-    "id": "175",
-    "title": "",
-    "level": 3,
-    "parentId": "170",
-    "level1Id": "100",
-    "level2Id": "170",
-    "energyFlag": "2"
-  },
-  {
-    "id": "176",
-    "title": "",
-    "level": 3,
-    "parentId": "170",
-    "level1Id": "100",
-    "level2Id": "170",
-    "energyFlag": "2"
-  },
-  {
     "id": "180",
     "title": "掃除機器",
     "level": 2,
@@ -2772,15 +2754,6 @@
     "energyFlag": "2"
   },
   {
-    "id": "768",
-    "title": "",
-    "level": 3,
-    "parentId": "760",
-    "level1Id": "700",
-    "level2Id": "760",
-    "energyFlag": "2"
-  },
-  {
     "id": "800",
     "title": "衣類",
     "level": 1,
@@ -3043,7 +3016,7 @@
   },
   {
     "id": "863",
-    "title": "靴",
+    "title": "革靴・ビジネスシューズ",
     "level": 3,
     "parentId": "860",
     "level1Id": "800",
@@ -3458,15 +3431,6 @@
   {
     "id": "95",
     "title": "耐震設備",
-    "level": 3,
-    "parentId": "90",
-    "level1Id": "0",
-    "level2Id": "90",
-    "energyFlag": "2"
-  },
-  {
-    "id": "96",
-    "title": "柱・根太・鉄骨",
     "level": 3,
     "parentId": "90",
     "level1Id": "0",
