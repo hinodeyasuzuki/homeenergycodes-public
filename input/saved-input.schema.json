@@ -73,6 +73,9 @@
             "room_id",
             "watt",
             "usagetime",
+            "maker",
+            "modelnumber",
+            "seller",
             "frequency",
             "enduseyear",
             "favorite",
@@ -92,6 +95,9 @@
             "room_id": { "type": "string" },
             "watt": { "type": ["number", "null"] },
             "usagetime": { "type": ["number", "null"] },
+            "maker": { "type": "string" },
+            "modelnumber": { "type": "string" },
+            "seller": { "type": "string" },
             "frequency": { "type": ["number", "null"] },
             "enduseyear": { "type": ["number", "null"] },
             "favorite": { "type": "boolean" },
@@ -135,13 +141,15 @@
       "patternProperties": {
         "^l[0-9]+$": {
           "type": "object",
-          "required": ["year", "month", "day", "equip_id", "about", "picture_ids", "created_at"],
+          "required": ["year", "month", "day", "equip_id", "cost", "repairer", "about", "picture_ids", "created_at"],
           "additionalProperties": false,
           "properties": {
             "year": { "type": ["number", "null"] },
             "month": { "type": ["number", "null"] },
             "day": { "type": ["number", "null"] },
             "equip_id": { "type": "string" },
+            "cost": { "type": ["number", "null"] },
+            "repairer": { "type": ["number", "null"] },
             "about": { "type": "string" },
             "public_info": { "type": "string" },
             "picture_ids": {

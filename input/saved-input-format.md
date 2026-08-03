@@ -39,7 +39,7 @@ JSONエクスポート時は、これに加えて`pictureBlobs`(IndexedDBの内�
   - 値: `{ name, area, connected_room_ids }`
 - products
   - キー: `e***`
-  - 値: `{ name, equip_id, purchaseyear, purchasemonth, method, manufactureyear, room_id, watt, usagetime, frequency, enduseyear, favorite, repairlog_ids, picture_ids, memory, public_info }`
+  - 値: `{ name, equip_id, purchaseyear, purchasemonth, method, manufactureyear, room_id, watt, usagetime, maker, modelnumber, seller, frequency, enduseyear, favorite, repairlog_ids, picture_ids, memory, public_info }`
   - 本来は p***であるが、pictureで使われているので、equipmentのeをキーに使用
 - energy / energycost
   - キー: `yyyymm` (例: `202612`)
