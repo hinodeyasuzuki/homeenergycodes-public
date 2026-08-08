@@ -141,13 +141,13 @@
       "patternProperties": {
         "^l[0-9]+$": {
           "type": "object",
-          "required": ["year", "month", "day", "equip_id", "cost", "repairer", "about", "picture_ids", "created_at"],
+          "required": ["year", "month", "day", "product_id", "cost", "repairer", "about", "picture_ids", "created_at"],
           "additionalProperties": false,
           "properties": {
             "year": { "type": ["number", "null"] },
             "month": { "type": ["number", "null"] },
             "day": { "type": ["number", "null"] },
-            "equip_id": { "type": "string" },
+            "product_id": { "type": "string" },
             "cost": { "type": ["number", "null"] },
             "repairer": { "type": ["number", "null"] },
             "about": { "type": "string" },

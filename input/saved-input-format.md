@@ -26,27 +26,73 @@
 
 JSONエクスポート時は、これに加えて`pictureBlobs`(IndexedDBの内容のスナップショット)が同梱されます。詳細は「写真データの保存先」の節を参照。
 
+保存データのキーごとの概要
+
+- input: 省エネ診断のための情報
+- inputCounts: 省エネ診断における、機器数
+- room: 部屋
+- products: 製品
+- energy: 月別エネルギー消費量
+- energycost: 月別光熱費
+- repairlog: 修理履歴
+- picture: 写真
+
 ## エンティティ概要
 
 - input
-  - キー: `i***` (診断項目ID)
-  - 値: 数値 または 数値配列
+  - キー: `i***` (診断項目ID input.jsonのid)
+  - 値: 数値 または 数値配列(input.jsonのoptions.val)
 - inputCounts
-  - キー: cons.jsonの`countgroup`(なければcons自身のcode)。例 `RM`, `LI`, `TV`, `RF`, `CR`, `TR`, `consHWtoilet`
+  - キー: cons.jsonの`countgroup`(なければcons自身のcode)。例 `RM`, `LI`, `TV`, `RF`, `CR`, `TR`
   - 値: 0以上の整数(そのグループに属する入力項目の入力欄の数)
 - room
   - キー: `r***`
   - 値: `{ name, area, connected_room_ids }`
+  - area : 部屋面積（畳）
+  - connected_room_ids: キー(r***)
 - products
   - キー: `e***`
-  - 値: `{ name, equip_id, purchaseyear, purchasemonth, method, manufactureyear, room_id, watt, usagetime, maker, modelnumber, seller, frequency, enduseyear, favorite, repairlog_ids, picture_ids, memory, public_info }`
-  - 本来は p***であるが、pictureで使われているので、equipmentのeをキーに使用
+  - 値: `{ name, equip_id, purchaseyear, purchasemonth, method, manufactureyear, room_id, watt, usagetime, frequency, maker, modelnumber, seller, enduseyear, favorite, repairlog_ids, picture_ids, memory, public_info }`
+  - キーは本来は p***であるが、pictureで使われているので、equipmentのeをキーに使用
+  - equip_id: equip.jsonのid
+  - purchaseyear: 購入年
+  - purchasemonth: 購入月(1-12,-1:月は不明,0:頃)
+  - method: 入手方法 [
+    { val: 1, label: "新品購入" },
+    { val: 2, label: "新品プレゼント" },
+    { val: 3, label: "中古購入" },
+    { val: 4, label: "中古譲り受け" },
+    { val: 5, label: "ごみを再利用" },
+    { val: 6, label: "手作り" },
+  ];
+  - manufactureyear:　製造年
+  - room_id: 部屋 roomのキー
+  - watt: 消費電力(W)
+  - usagetime: 使用時間（時間/回）
+  - frequency: 使用頻度（回/年）
+  - maker: 製造者
+  - modelnumber: 製品ID
+  - seller: 販売者
+  - enduseyear: 使用終了年
+  - favorite: 愛用品 (true/false)
+  - repairlog_ids:修理履歴 repairlogのキーの配列[] 
+  - picture_ids:写真 pictureのキー配列[] 
+  - memory: 思い出
+  - public_info: 公開用情報
 - energy / energycost
   - キー: `yyyymm` (例: `202612`)
-  - 値: コードをキーにした数値マップ
+  - 値: energy.jsonおよびenergycost.json の code をキーにした数値マップ
 - repairlog
   - キー: `l***`
-  - 値: `{ year, month, day, equip_id, about, public_info, picture_ids, created_at }`
+  - 値: `{ year, month, day, product_id, about, public_info, picture_ids, created_at }`
+  - year: 年
+  - month: 月
+  - day: 日
+  - product_id: 機器（productsのキー）
+  - about: 概要
+  - public_info: 公開情報
+  - picture_ids: 写真 pictureのキー配列[] 
+  - created_at: 作成日時
 - picture
   - キー: `p***`
   - 値: `{ memo, created_at, sourceUrl }`（画像データURL本体はここには含まれず、IndexedDBに`p***`をキーとして保存される。`sourceUrl` はGoogle Photos等から取り込んだ場合の参照元URLで、未入力時は空文字列・期限切れの可能性あり。詳細は `docs/superpowers/specs/2026-07-27-photo-capture-design.md` および下記「写真データの保存先」参照）
