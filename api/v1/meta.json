@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-28T11:17:31+00:00",
+  "generatedAt": "2026-08-03T02:36:22+00:00",
   "counts": {
     "input": 179,
     "measures": 82,
@@ -7,7 +7,7 @@
     "energy": 9,
     "energycost": 8,
     "applianceCategory": 12,
-    "equip": 413
+    "equip": 406
   },
   "endpoints": [
     "input.json",
