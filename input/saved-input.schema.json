@@ -81,8 +81,7 @@
             "favorite",
             "repairlog_ids",
             "picture_ids",
-            "memory",
-            "public_info"
+            "memory"
           ],
           "additionalProperties": false,
           "properties": {
@@ -109,8 +108,7 @@
               "type": "array",
               "items": { "type": "string", "pattern": "^p[0-9]+$" }
             },
-            "memory": { "type": "string" },
-            "public_info": { "type": "string" }
+            "memory": { "type": "string" }
           }
         }
       },
@@ -151,7 +149,6 @@
             "cost": { "type": ["number", "null"] },
             "repairer": { "type": ["number", "null"] },
             "about": { "type": "string" },
-            "public_info": { "type": "string" },
             "picture_ids": {
               "type": "array",
               "items": { "type": "string", "pattern": "^p[0-9]+$" }
