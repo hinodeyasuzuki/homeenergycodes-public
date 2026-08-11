@@ -52,7 +52,7 @@ JSONエクスポート時は、これに加えて`pictureBlobs`(IndexedDBの内�
   - connected_room_ids: キー(r***)
 - products
   - キー: `e***`
-  - 値: `{ name, equip_id, purchaseyear, purchasemonth, method, manufactureyear, room_id, watt, usagetime, frequency, maker, modelnumber, seller, enduseyear, favorite, repairlog_ids, picture_ids, memory, public_info }`
+  - 値: `{ name, equip_id, purchaseyear, purchasemonth, method, manufactureyear, room_id, watt, usagetime, frequency, maker, modelnumber, seller, enduseyear, favorite, repairlog_ids, picture_ids, memory }`
   - キーは本来は p***であるが、pictureで使われているので、equipmentのeをキーに使用
   - equip_id: equip.jsonのid
   - purchaseyear: 購入年
@@ -78,19 +78,17 @@ JSONエクスポート時は、これに加えて`pictureBlobs`(IndexedDBの内�
   - repairlog_ids:修理履歴 repairlogのキーの配列[] 
   - picture_ids:写真 pictureのキー配列[] 
   - memory: 思い出
-  - public_info: 公開用情報
 - energy / energycost
   - キー: `yyyymm` (例: `202612`)
   - 値: energy.jsonおよびenergycost.json の code をキーにした数値マップ
 - repairlog
   - キー: `l***`
-  - 値: `{ year, month, day, product_id, about, public_info, picture_ids, created_at }`
+  - 値: `{ year, month, day, product_id, about, picture_ids, created_at }`
   - year: 年
   - month: 月
   - day: 日
   - product_id: 機器（productsのキー）
   - about: 概要
-  - public_info: 公開情報
   - picture_ids: 写真 pictureのキー配列[] 
   - created_at: 作成日時
 - picture
