@@ -28,7 +28,7 @@
   },
   {
     "id": "112",
-    "title": "電気調理鍋・フライヤー",
+    "title": "電気調理器",
     "level": 3,
     "parentId": "110",
     "level1Id": "100",
@@ -2763,6 +2763,15 @@
     "energyFlag": "2"
   },
   {
+    "id": "821",
+    "title": "和服",
+    "level": 3,
+    "parentId": "820",
+    "level1Id": "800",
+    "level2Id": "820",
+    "energyFlag": "2"
+  },
+  {
     "id": "830",
     "title": "子ども用服",
     "level": 2,
@@ -3339,6 +3348,15 @@
     "energyFlag": "2"
   },
   {
+    "id": "96",
+    "title": "下水・浄化槽",
+    "level": 3,
+    "parentId": "90",
+    "level1Id": "0",
+    "level2Id": "90",
+    "energyFlag": "2"
+  },
+  {
     "id": "900",
     "title": "移動",
     "level": 1,
@@ -3552,6 +3570,33 @@
     "parentId": "950",
     "level1Id": "900",
     "level2Id": "950",
+    "energyFlag": "2"
+  },
+  {
+    "id": "960",
+    "title": "シルバーカー",
+    "level": 2,
+    "parentId": "900",
+    "level1Id": "900",
+    "level2Id": "960",
+    "energyFlag": "2"
+  },
+  {
+    "id": "961",
+    "title": "買い物カート",
+    "level": 3,
+    "parentId": "960",
+    "level1Id": "900",
+    "level2Id": "960",
+    "energyFlag": "2"
+  },
+  {
+    "id": "962",
+    "title": "シルバーカー",
+    "level": 3,
+    "parentId": "960",
+    "level1Id": "900",
+    "level2Id": "960",
     "energyFlag": "2"
   }
 ]

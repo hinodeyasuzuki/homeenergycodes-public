@@ -1,10 +1,5 @@
-<!doctype html>
-<html lang="ja">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Home Energy Codes API</title>
-  <meta name="description" content="家庭の省エネ診断における診断項目(input)・省エネ対策項目(measures)の基本マスタデータを公開するJSON API">
+<title>Home Energy Codes API</title>
+<meta name="description" content="家庭の省エネ診断における診断項目(input)・省エネ対策項目(measures)の基本マスタデータを公開するJSON API">
 <style>
   :root {
     color-scheme: light dark;
@@ -63,7 +58,7 @@
     color: var(--muted);
     margin-right: 6px;
   }
-  table { width: 100%; border-collapse: collapse; margin: 1rem 0; font-size: 0.92rem; overflow-x: auto; }
+  table { width: 100%; border-collapse: collapse; margin: 1rem 0; font-size: 0.92rem; }
   th, td { text-align: left; padding: 8px 10px; border-bottom: 1px solid var(--border); vertical-align: top; }
   th { color: var(--muted); font-weight: 600; }
   code {
@@ -98,9 +93,7 @@
   footer { margin-top: 4rem; color: var(--muted); font-size: 0.85rem; }
   ul { padding-left: 1.3em; }
 </style>
-</head>
 
-<body>
 <main>
   <h1>Home Energy Codes API</h1>
   <p class="lead">家庭の省エネ診断アプリ向けの基本マスタデータ(診断項目 / 省エネ対策項目)を提供する、読み取り専用の静的JSON APIです。</p>
@@ -142,7 +135,7 @@
   </div>
   <div class="endpoint">
     <span class="method">GET</span>
-    <a href="api/v1/equips.json">/api/v1/equips.json</a>
+    <a href="api/v1/equip.json">/api/v1/equip.json</a>
     — 機器マスタ(大分類/中分類/小分類と親子関係、エネルギー区分)の一覧
   </div>
   <div class="endpoint">
@@ -295,5 +288,3 @@
     Home Energy Codes / 家庭の省エネ診断 基本項目API — 生成日時は <a href="api/v1/meta.json">meta.json</a> を参照
   </footer>
 </main>
-</body>
-</html>

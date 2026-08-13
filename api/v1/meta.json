@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-11T02:30:46+00:00",
+  "generatedAt": "2026-08-13T06:22:00+00:00",
   "counts": {
     "input": 179,
     "measures": 82,
@@ -7,8 +7,7 @@
     "energy": 9,
     "energycost": 8,
     "applianceCategory": 12,
-    "applianceType": 39,
-    "equips": 395
+    "equip": 400
   },
   "endpoints": [
     "input.json",
@@ -17,15 +16,13 @@
     "energy.json",
     "energycost.json",
     "applianceCategory.json",
-    "applianceType.json",
-    "equips.json",
     "input.csv",
     "measures.csv",
     "cons.csv",
     "energy.csv",
     "energycost.csv",
     "applianceCategory.csv",
-    "applianceType.csv",
-    "equips.txt"
+    "equips.txt",
+    "equip.json"
   ]
 }
