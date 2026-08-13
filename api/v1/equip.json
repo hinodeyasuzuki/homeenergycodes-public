@@ -19,7 +19,7 @@
   },
   {
     "id": "111",
-    "title": "レンジ・コンロ",
+    "title": "ガスレンジ・コンロ",
     "level": 3,
     "parentId": "110",
     "level1Id": "100",
@@ -28,7 +28,7 @@
   },
   {
     "id": "112",
-    "title": "電気調理器",
+    "title": "電磁調理器・電気鍋",
     "level": 3,
     "parentId": "110",
     "level1Id": "100",
@@ -91,16 +91,7 @@
   },
   {
     "id": "119",
-    "title": "電気ケトル",
-    "level": 3,
-    "parentId": "110",
-    "level1Id": "100",
-    "level2Id": "110",
-    "energyFlag": "1"
-  },
-  {
-    "id": "121",
-    "title": "電気ポット",
+    "title": "電気ケトル・ポット",
     "level": 3,
     "parentId": "110",
     "level1Id": "100",
@@ -262,7 +253,7 @@
   },
   {
     "id": "141",
-    "title": "ワイン・酒・バー用品",
+    "title": "バー用品",
     "level": 3,
     "parentId": "130",
     "level1Id": "100",
@@ -945,6 +936,15 @@
     "energyFlag": "2"
   },
   {
+    "id": "274",
+    "title": "その他美容健康用品",
+    "level": 3,
+    "parentId": "270",
+    "level1Id": "200",
+    "level2Id": "270",
+    "energyFlag": "2"
+  },
+  {
     "id": "280",
     "title": "時計",
     "level": 2,
@@ -1009,7 +1009,7 @@
   },
   {
     "id": "310",
-    "title": "電動工具・器具",
+    "title": "電動工具",
     "level": 2,
     "parentId": "200",
     "level1Id": "200",
@@ -1018,7 +1018,7 @@
   },
   {
     "id": "311",
-    "title": "切断工具",
+    "title": "電動切断工具",
     "level": 3,
     "parentId": "310",
     "level1Id": "200",
@@ -1027,7 +1027,7 @@
   },
   {
     "id": "312",
-    "title": "研磨工具",
+    "title": "電動研磨工具",
     "level": 3,
     "parentId": "310",
     "level1Id": "200",
@@ -1036,7 +1036,7 @@
   },
   {
     "id": "313",
-    "title": "切削工具",
+    "title": "電動切削工具",
     "level": 3,
     "parentId": "310",
     "level1Id": "200",
@@ -1045,7 +1045,7 @@
   },
   {
     "id": "314",
-    "title": "穴あけ・締付工具",
+    "title": "電動穴あけ・締付工具",
     "level": 3,
     "parentId": "310",
     "level1Id": "200",
@@ -1054,7 +1054,7 @@
   },
   {
     "id": "315",
-    "title": "測定器具",
+    "title": "電子式測定器具",
     "level": 3,
     "parentId": "310",
     "level1Id": "200",
@@ -1099,7 +1099,7 @@
   },
   {
     "id": "321",
-    "title": "切断工具",
+    "title": "切断工具（手工具）",
     "level": 3,
     "parentId": "320",
     "level1Id": "200",
@@ -1108,7 +1108,7 @@
   },
   {
     "id": "322",
-    "title": "研磨工具",
+    "title": "研磨工具（手工具）",
     "level": 3,
     "parentId": "320",
     "level1Id": "200",
@@ -1117,7 +1117,7 @@
   },
   {
     "id": "323",
-    "title": "切削工具",
+    "title": "切削工具（手工具）",
     "level": 3,
     "parentId": "320",
     "level1Id": "200",
@@ -1126,7 +1126,7 @@
   },
   {
     "id": "324",
-    "title": "穴あけ・締付工具",
+    "title": "穴あけ・締付工具（手工具）",
     "level": 3,
     "parentId": "320",
     "level1Id": "200",
@@ -1144,7 +1144,7 @@
   },
   {
     "id": "326",
-    "title": "測定器具",
+    "title": "測定器具（手工具）",
     "level": 3,
     "parentId": "320",
     "level1Id": "200",
@@ -1172,24 +1172,6 @@
   {
     "id": "331",
     "title": "災害用袋",
-    "level": 3,
-    "parentId": "330",
-    "level1Id": "200",
-    "level2Id": "330",
-    "energyFlag": "1"
-  },
-  {
-    "id": "332",
-    "title": "非常用水ストック",
-    "level": 3,
-    "parentId": "330",
-    "level1Id": "200",
-    "level2Id": "330",
-    "energyFlag": "1"
-  },
-  {
-    "id": "333",
-    "title": "食品ローリングストック",
     "level": 3,
     "parentId": "330",
     "level1Id": "200",
@@ -1234,16 +1216,7 @@
   },
   {
     "id": "341",
-    "title": "傘・レインウェア",
-    "level": 3,
-    "parentId": "340",
-    "level1Id": "200",
-    "level2Id": "340",
-    "energyFlag": "2"
-  },
-  {
-    "id": "342",
-    "title": "買い物キャリー",
+    "title": "傘",
     "level": 3,
     "parentId": "340",
     "level1Id": "200",
@@ -2898,6 +2871,15 @@
     "energyFlag": "2"
   },
   {
+    "id": "856",
+    "title": "レインウェア",
+    "level": 3,
+    "parentId": "850",
+    "level1Id": "800",
+    "level2Id": "850",
+    "energyFlag": "2"
+  },
+  {
     "id": "860",
     "title": "靴",
     "level": 2,
@@ -3042,6 +3024,15 @@
     "energyFlag": "2"
   },
   {
+    "id": "878",
+    "title": "買い物カート",
+    "level": 3,
+    "parentId": "870",
+    "level1Id": "800",
+    "level2Id": "870",
+    "energyFlag": "2"
+  },
+  {
     "id": "0",
     "title": "設備",
     "level": 1,
@@ -3055,6 +3046,33 @@
     "title": "窓・サッシ",
     "level": 2,
     "parentId": "0",
+    "level1Id": "0",
+    "level2Id": "10",
+    "energyFlag": "2"
+  },
+  {
+    "id": "11",
+    "title": "窓・サッシ",
+    "level": 3,
+    "parentId": "10",
+    "level1Id": "0",
+    "level2Id": "10",
+    "energyFlag": "2"
+  },
+  {
+    "id": "12",
+    "title": "網戸",
+    "level": 3,
+    "parentId": "10",
+    "level1Id": "0",
+    "level2Id": "10",
+    "energyFlag": "2"
+  },
+  {
+    "id": "13",
+    "title": "シャッター・雨戸",
+    "level": 3,
+    "parentId": "10",
     "level1Id": "0",
     "level2Id": "10",
     "energyFlag": "2"
@@ -3142,7 +3160,7 @@
   },
   {
     "id": "40",
-    "title": "蓄電",
+    "title": "蓄給電",
     "level": 2,
     "parentId": "0",
     "level1Id": "0",
@@ -3241,7 +3259,7 @@
   },
   {
     "id": "70",
-    "title": "トイレ",
+    "title": "トイレ・洗面",
     "level": 2,
     "parentId": "0",
     "level1Id": "0",
@@ -3276,8 +3294,17 @@
     "energyFlag": "2"
   },
   {
+    "id": "74",
+    "title": "温水水栓",
+    "level": 3,
+    "parentId": "70",
+    "level1Id": "0",
+    "level2Id": "70",
+    "energyFlag": "2"
+  },
+  {
     "id": "80",
-    "title": "洗面",
+    "title": "構造・設備",
     "level": 2,
     "parentId": "0",
     "level1Id": "0",
@@ -3286,7 +3313,43 @@
   },
   {
     "id": "81",
-    "title": "温水水栓",
+    "title": "外構",
+    "level": 3,
+    "parentId": "80",
+    "level1Id": "0",
+    "level2Id": "80",
+    "energyFlag": "2"
+  },
+  {
+    "id": "82",
+    "title": "柱・根太・鉄骨",
+    "level": 3,
+    "parentId": "80",
+    "level1Id": "0",
+    "level2Id": "80",
+    "energyFlag": "2"
+  },
+  {
+    "id": "83",
+    "title": "耐震設備",
+    "level": 3,
+    "parentId": "80",
+    "level1Id": "0",
+    "level2Id": "80",
+    "energyFlag": "2"
+  },
+  {
+    "id": "84",
+    "title": "水道配管",
+    "level": 3,
+    "parentId": "80",
+    "level1Id": "0",
+    "level2Id": "80",
+    "energyFlag": "2"
+  },
+  {
+    "id": "85",
+    "title": "下水・浄化槽",
     "level": 3,
     "parentId": "80",
     "level1Id": "0",
@@ -3295,7 +3358,7 @@
   },
   {
     "id": "90",
-    "title": "住宅・構造",
+    "title": "建物",
     "level": 2,
     "parentId": "0",
     "level1Id": "0",
@@ -3314,42 +3377,6 @@
   {
     "id": "92",
     "title": "小屋",
-    "level": 3,
-    "parentId": "90",
-    "level1Id": "0",
-    "level2Id": "90",
-    "energyFlag": "2"
-  },
-  {
-    "id": "93",
-    "title": "外構",
-    "level": 3,
-    "parentId": "90",
-    "level1Id": "0",
-    "level2Id": "90",
-    "energyFlag": "2"
-  },
-  {
-    "id": "94",
-    "title": "柱・根太・鉄骨",
-    "level": 3,
-    "parentId": "90",
-    "level1Id": "0",
-    "level2Id": "90",
-    "energyFlag": "2"
-  },
-  {
-    "id": "95",
-    "title": "耐震設備",
-    "level": 3,
-    "parentId": "90",
-    "level1Id": "0",
-    "level2Id": "90",
-    "energyFlag": "2"
-  },
-  {
-    "id": "96",
-    "title": "下水・浄化槽",
     "level": 3,
     "parentId": "90",
     "level1Id": "0",
@@ -3570,33 +3597,6 @@
     "parentId": "950",
     "level1Id": "900",
     "level2Id": "950",
-    "energyFlag": "2"
-  },
-  {
-    "id": "960",
-    "title": "シルバーカー",
-    "level": 2,
-    "parentId": "900",
-    "level1Id": "900",
-    "level2Id": "960",
-    "energyFlag": "2"
-  },
-  {
-    "id": "961",
-    "title": "買い物カート",
-    "level": 3,
-    "parentId": "960",
-    "level1Id": "900",
-    "level2Id": "960",
-    "energyFlag": "2"
-  },
-  {
-    "id": "962",
-    "title": "シルバーカー",
-    "level": 3,
-    "parentId": "960",
-    "level1Id": "900",
-    "level2Id": "960",
     "energyFlag": "2"
   }
 ]
