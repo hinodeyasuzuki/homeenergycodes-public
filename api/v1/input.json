@@ -174,7 +174,7 @@
     "title": "家の階数",
     "cons": "consTotal",
     "unit": "",
-    "text": "何階建てですか、集合住宅の場合何階ですか",
+    "text": "何階建てですか、集合住宅の場合は建物の何階ですか",
     "inputType": "sel005",
     "options": [
       {
@@ -200,7 +200,7 @@
     "title": "天井が屋根面（最上階）か",
     "cons": "consTotal",
     "unit": "",
-    "text": "天井が屋根面（最上階）ですか",
+    "text": "集合住宅の場合、天井が屋根面（最上階）ですか",
     "inputType": "sel006",
     "options": [
       {
@@ -252,7 +252,7 @@
     "title": "居室数",
     "cons": "consTotal",
     "unit": "",
-    "text": "家にある部屋の数は",
+    "text": "家に居室は何部屋ありますか。トイレ、風呂などは含みません。",
     "inputType": "sel008",
     "options": [
       {
@@ -298,7 +298,7 @@
     "title": "築年数",
     "cons": "consTotal",
     "unit": "年",
-    "text": "家を建ててから何年ですか",
+    "text": "家を建ててからおよそ何年ですか",
     "inputType": "sel009",
     "options": [
       {
@@ -334,200 +334,7 @@
     "unit": "",
     "text": "お住まいの都道府県を選んで下さい。",
     "inputType": "sel021",
-    "options": [
-      {
-        "disp": "選んで下さい",
-        "val": -1
-      },
-      {
-        "disp": "北海道",
-        "val": 1
-      },
-      {
-        "disp": "青森",
-        "val": 2
-      },
-      {
-        "disp": "岩手",
-        "val": 3
-      },
-      {
-        "disp": "宮城",
-        "val": 4
-      },
-      {
-        "disp": "秋田",
-        "val": 5
-      },
-      {
-        "disp": "山形",
-        "val": 6
-      },
-      {
-        "disp": "福島",
-        "val": 7
-      },
-      {
-        "disp": "茨城",
-        "val": 8
-      },
-      {
-        "disp": "栃木",
-        "val": 9
-      },
-      {
-        "disp": "群馬",
-        "val": 10
-      },
-      {
-        "disp": "埼玉",
-        "val": 11
-      },
-      {
-        "disp": "千葉",
-        "val": 12
-      },
-      {
-        "disp": "東京",
-        "val": 13
-      },
-      {
-        "disp": "神奈川",
-        "val": 14
-      },
-      {
-        "disp": "新潟",
-        "val": 15
-      },
-      {
-        "disp": "富山",
-        "val": 16
-      },
-      {
-        "disp": "石川",
-        "val": 17
-      },
-      {
-        "disp": "福井",
-        "val": 18
-      },
-      {
-        "disp": "山梨",
-        "val": 19
-      },
-      {
-        "disp": "長野",
-        "val": 20
-      },
-      {
-        "disp": "岐阜",
-        "val": 21
-      },
-      {
-        "disp": "静岡",
-        "val": 22
-      },
-      {
-        "disp": "愛知",
-        "val": 23
-      },
-      {
-        "disp": "三重",
-        "val": 24
-      },
-      {
-        "disp": "滋賀",
-        "val": 25
-      },
-      {
-        "disp": "京都",
-        "val": 26
-      },
-      {
-        "disp": "大阪",
-        "val": 27
-      },
-      {
-        "disp": "兵庫",
-        "val": 28
-      },
-      {
-        "disp": "奈良",
-        "val": 29
-      },
-      {
-        "disp": "和歌山",
-        "val": 30
-      },
-      {
-        "disp": "鳥取",
-        "val": 31
-      },
-      {
-        "disp": "島根",
-        "val": 32
-      },
-      {
-        "disp": "岡山",
-        "val": 33
-      },
-      {
-        "disp": "広島",
-        "val": 34
-      },
-      {
-        "disp": "山口",
-        "val": 35
-      },
-      {
-        "disp": "徳島",
-        "val": 36
-      },
-      {
-        "disp": "香川",
-        "val": 37
-      },
-      {
-        "disp": "愛媛",
-        "val": 38
-      },
-      {
-        "disp": "高知",
-        "val": 39
-      },
-      {
-        "disp": "福岡",
-        "val": 40
-      },
-      {
-        "disp": "佐賀",
-        "val": 41
-      },
-      {
-        "disp": "長崎",
-        "val": 42
-      },
-      {
-        "disp": "熊本",
-        "val": 43
-      },
-      {
-        "disp": "大分",
-        "val": 44
-      },
-      {
-        "disp": "宮崎",
-        "val": 45
-      },
-      {
-        "disp": "鹿児島",
-        "val": 46
-      },
-      {
-        "disp": "沖縄",
-        "val": 47
-      }
-    ]
+    "options": []
   },
   {
     "id": "i022",
@@ -586,7 +393,7 @@
     "title": "窓の断熱性能",
     "cons": "consTotal",
     "unit": "",
-    "text": "窓の断熱性能",
+    "text": "窓はどのような種類ですか",
     "inputType": "sel041",
     "options": [
       {
@@ -624,7 +431,7 @@
     "title": "壁面の断熱材の厚さ",
     "cons": "consTotal",
     "unit": "",
-    "text": "断熱材の厚さはどの程度ですか",
+    "text": "断熱材の厚さはどの程度ですか（グラスウール以外は換算してください）",
     "inputType": "sel042",
     "options": [
       {
@@ -1784,7 +1591,7 @@
     "title": "風呂沸かし日数（夏以外）",
     "cons": "consHWtub",
     "unit": "日/週",
-    "text": "お風呂を沸かすのは、1週間に何日くらいですか。",
+    "text": "夏以外の季節で、お風呂を沸かすのは、1週間に何日くらいですか。",
     "inputType": "sel103",
     "options": [
       {
@@ -1860,7 +1667,7 @@
     "title": "シャワー時間(夏以外）",
     "cons": "consHWshower",
     "unit": "分/日",
-    "text": "家族全員でシャワーを使う時間は、1日何分くらいですか。平均的には1人5分程度です。",
+    "text": "夏以外の季節で、家族全員でシャワーを使う時間は、1日何分くらいですか。平均的には1人5分程度です。",
     "inputType": "sel105",
     "options": [
       {
@@ -2714,7 +2521,7 @@
     "title": "部屋の名前",
     "cons": "consACheat",
     "unit": "",
-    "text": "部屋の名前",
+    "text": "部屋の名前（呼び方）を書いてください",
     "inputType": "text",
     "options": []
   },
@@ -2815,7 +2622,7 @@
     "title": "窓ガラスの種類",
     "cons": "consACheat",
     "unit": "",
-    "text": "窓ガラスの種類",
+    "text": "窓はどのような種類ですか",
     "inputType": "sel214",
     "options": [
       {
@@ -3343,7 +3150,7 @@
     "title": "電気ストーブの使用時間",
     "cons": "consACheat",
     "unit": "時間/日",
-    "text": "電気ストーブ・オイルヒータの使用時間",
+    "text": "電気ストーブ・オイルヒータの使用時間はどのくらいですか",
     "inputType": "sel241",
     "options": [
       {
@@ -3533,7 +3340,7 @@
     "title": "朝方の寒さが始まる時期",
     "cons": "consHTsum",
     "unit": "",
-    "text": "朝方の寒さはいつからですか",
+    "text": "朝方の寒さはいつから感じますか",
     "inputType": "sel246",
     "options": [
       {
@@ -3819,7 +3626,7 @@
     "title": "冷房する期間（除湿含む）",
     "cons": "consCOsum",
     "unit": "ヶ月",
-    "text": "冷房する期間（除湿含む）",
+    "text": "冷房する期間（除湿含む）は何ヶ月ですか",
     "inputType": "sel264",
     "options": [
       {
@@ -4119,7 +3926,7 @@
     "title": "冷房する期間（除湿含む）",
     "cons": "consACcool",
     "unit": "ヶ月",
-    "text": "冷房する期間（除湿含む）",
+    "text": "冷房する期間（除湿含む）は何ヶ月ですか",
     "inputType": "sel274",
     "options": [
       {
@@ -4307,7 +4114,7 @@
     "title": "セントラル熱源",
     "cons": "consHTcold",
     "unit": "",
-    "text": "セントラルヒーティングの熱源は",
+    "text": "セントラルヒーティングの熱源は何ですか",
     "inputType": "sel282",
     "options": [
       {
@@ -4367,7 +4174,7 @@
     "title": "セントラル暖房期間",
     "cons": "consHTcold",
     "unit": "ヶ月",
-    "text": "セントラル暖房を使う期間は",
+    "text": "セントラル暖房を使う期間はどのくらいですか",
     "inputType": "sel284",
     "options": [
       {
@@ -4457,7 +4264,7 @@
     "title": "ロードヒーティング熱源",
     "cons": "consHTcold",
     "unit": "",
-    "text": "ロードヒーティングの熱源",
+    "text": "ロードヒーティングの熱源は何ですか",
     "inputType": "sel287",
     "options": [
       {
@@ -4495,7 +4302,7 @@
     "title": "ロードヒーティング面積",
     "cons": "consHTcold",
     "unit": "m2",
-    "text": "ロードヒーティング面積",
+    "text": "ロードヒーティング面積はどのくらいですか",
     "inputType": "sel288",
     "options": [
       {
@@ -4541,7 +4348,7 @@
     "title": "ロードヒーティング利用頻度",
     "cons": "consHTcold",
     "unit": "",
-    "text": "ロードヒーティング利用頻度",
+    "text": "ロードヒーティング利用頻度はどのくらいですか",
     "inputType": "sel289",
     "options": [
       {
@@ -4601,7 +4408,7 @@
     "title": "ルーフヒーティングの対象面積",
     "cons": "consHTcold",
     "unit": "",
-    "text": "ルーフヒーティングの対象面積",
+    "text": "ルーフヒーティングの対象面積はどのくらいですか",
     "inputType": "sel291",
     "options": [
       {
@@ -4623,7 +4430,7 @@
     "title": "ルーフヒーティングの熱源",
     "cons": "consHTcold",
     "unit": "",
-    "text": "ルーフヒーティングの熱源",
+    "text": "ルーフヒーティングの熱源は何ですか",
     "inputType": "sel292",
     "options": [
       {
@@ -4665,7 +4472,7 @@
     "title": "ルーフヒーティングの利用頻度",
     "cons": "consHTcold",
     "unit": "",
-    "text": "ルーフヒーティングを使う頻度は",
+    "text": "ルーフヒーティングを使う頻度はどのくらいですか",
     "inputType": "sel293",
     "options": [
       {
@@ -4703,7 +4510,7 @@
     "title": "融雪槽の利用",
     "cons": "consHTcold",
     "unit": "",
-    "text": "融雪槽の利用",
+    "text": "融雪槽の利用をしていますか",
     "inputType": "sel294",
     "options": [
       {
@@ -4729,7 +4536,7 @@
     "title": "融雪槽の熱源",
     "cons": "consHTcold",
     "unit": "",
-    "text": "融雪槽の熱源",
+    "text": "融雪槽の熱源は何ですか",
     "inputType": "sel295",
     "options": [
       {
@@ -4827,7 +4634,7 @@
     "title": "乾燥機の種類",
     "cons": "consDRsum",
     "unit": "",
-    "text": "乾燥機の種類",
+    "text": "乾燥機の種類は何ですか",
     "inputType": "sel402",
     "options": [
       {
@@ -5327,7 +5134,7 @@
     "title": "テレビのサイズ",
     "cons": "consTV",
     "unit": "インチ",
-    "text": "テレビのサイズ",
+    "text": "テレビのサイズはどのくらいですか",
     "inputType": "sel631",
     "options": [
       {
@@ -5369,7 +5176,7 @@
     "title": "テレビの使用年数",
     "cons": "consTV",
     "unit": "年",
-    "text": "テレビの使用年数",
+    "text": "テレビをおよそ何年使用していますか",
     "inputType": "sel632",
     "options": [
       {
@@ -5419,7 +5226,7 @@
     "title": "テレビの時間",
     "cons": "consTV",
     "unit": "時間",
-    "text": "テレビの時間",
+    "text": "テレビをつける時間はどのくらいですか",
     "inputType": "sel633",
     "options": [
       {
@@ -5503,7 +5310,7 @@
     "title": "冷蔵庫の使用年数",
     "cons": "consRF",
     "unit": "年",
-    "text": "冷蔵庫の使用年数",
+    "text": "冷蔵庫は何年使用していますか",
     "inputType": "sel711",
     "options": [
       {
@@ -5553,7 +5360,7 @@
     "title": "冷蔵庫の種類",
     "cons": "consRF",
     "unit": "",
-    "text": "冷蔵庫の種類",
+    "text": "冷蔵庫の種類はどれですか",
     "inputType": "sel712",
     "options": [
       {
@@ -5575,7 +5382,7 @@
     "title": "定格内容量",
     "cons": "consRF",
     "unit": "",
-    "text": "定格内容量",
+    "text": "定格内容量はどのくらいですか",
     "inputType": "sel713",
     "options": [
       {
@@ -5699,7 +5506,7 @@
     "title": "コンロの熱源",
     "cons": "consCKcook",
     "unit": "",
-    "text": "コンロの熱源は",
+    "text": "コンロの熱源は何ですか",
     "inputType": "sel801",
     "options": [
       {
@@ -5725,7 +5532,7 @@
     "title": "調理の頻度",
     "cons": "consCKcook",
     "unit": "",
-    "text": "調理の頻度",
+    "text": "調理はどのくらいの頻度でしますか",
     "inputType": "sel802",
     "options": [
       {
@@ -5849,7 +5656,7 @@
     "title": "車の保有台数",
     "cons": "consCRsum",
     "unit": "台",
-    "text": "車の保有台数",
+    "text": "自家用車を何台保有していますか",
     "inputType": "sel901",
     "options": [
       {
@@ -5887,7 +5694,7 @@
     "title": "スクータ・バイクの保有台数",
     "cons": "consCRsum",
     "unit": "台",
-    "text": "スクータ・バイクの保有台数",
+    "text": "スクータ・バイクを何台保有していますか",
     "inputType": "sel902",
     "options": [
       {
@@ -5925,7 +5732,7 @@
     "title": "車の種類",
     "cons": "consCR",
     "unit": "",
-    "text": "車の種類",
+    "text": "車の種類は何ですか",
     "inputType": "sel911",
     "options": [
       {
@@ -5967,7 +5774,7 @@
     "title": "車の燃費",
     "cons": "consCR",
     "unit": "km/L",
-    "text": "車の燃費",
+    "text": "車の燃費はどのくらいですか",
     "inputType": "sel912",
     "options": [
       {
@@ -6048,7 +5855,7 @@
     "title": "行き先",
     "cons": "consCRtrip",
     "unit": "",
-    "text": "よく出かける行き先",
+    "text": "よく出かける行き先はどこですか",
     "inputType": "text",
     "options": []
   },
@@ -6107,7 +5914,7 @@
     "title": "片道距離",
     "cons": "consCRtrip",
     "unit": "km",
-    "text": "片道距離",
+    "text": "片道距離はどのくらいですか",
     "inputType": "sel923",
     "options": [
       {
@@ -6255,7 +6062,7 @@
     "title": "加減速の少ない運転",
     "cons": "consCRsum",
     "unit": "",
-    "text": "加減速の少ない運転",
+    "text": "加減速の少ない運転をしていますか",
     "inputType": "sel933",
     "options": [
       {
@@ -6281,7 +6088,7 @@
     "title": "早めのアクセルオフ",
     "cons": "consCRsum",
     "unit": "",
-    "text": "早めのアクセルオフ",
+    "text": "早めのアクセルオフをしていますか",
     "inputType": "sel934",
     "options": [
       {
@@ -6307,7 +6114,7 @@
     "title": "道路交通情報の活用",
     "cons": "consCRsum",
     "unit": "",
-    "text": "道路交通情報の活用",
+    "text": "道路交通情報の活用をしていますか",
     "inputType": "sel935",
     "options": [
       {
@@ -6333,7 +6140,7 @@
     "title": "不要な荷物を積まない",
     "cons": "consCRsum",
     "unit": "",
-    "text": "不要な荷物は積まずに走行",
+    "text": "不要な荷物は積まずに走行をしていますか",
     "inputType": "sel936",
     "options": [
       {
@@ -6437,7 +6244,7 @@
     "title": "エアコンの性能",
     "cons": "consCOsum",
     "unit": "",
-    "text": "エアコンの省エネ性能は良いですか（1級ですか）",
+    "text": "エアコンの省エネ性能は良いですか",
     "inputType": "sel221",
     "options": [
       {
@@ -6467,7 +6274,7 @@
     "title": "温水器の性能",
     "cons": "consHWsum",
     "unit": "",
-    "text": "温水器の省エネ性能は良いですか。（1級ですか）",
+    "text": "温水器の省エネ性能は良いですか。",
     "inputType": "sel121",
     "options": [
       {
@@ -6497,7 +6304,7 @@
     "title": "テレビの性能",
     "cons": "consTVsum",
     "unit": "",
-    "text": "テレビの省エネ性能は良いですか。（1級ですか）",
+    "text": "テレビの省エネ性能は良いですか。",
     "inputType": "sel621",
     "options": [
       {
@@ -6527,7 +6334,7 @@
     "title": "洗濯機の性能",
     "cons": "consDRsum",
     "unit": "",
-    "text": "洗濯機の省エネ性能は良いですか。（1級ですか）",
+    "text": "洗濯機の省エネ性能は良いですか。",
     "inputType": "sel421",
     "options": [
       {
@@ -6557,7 +6364,7 @@
     "title": "冷蔵庫の性能",
     "cons": "consRFsum",
     "unit": "",
-    "text": "冷蔵庫の省エネ性能は良いですか。（1級ですか）",
+    "text": "冷蔵庫の省エネ性能は良いですか。",
     "inputType": "sel721",
     "options": [
       {
