@@ -3438,51 +3438,6 @@
     "energyFlag": "1"
   },
   {
-    "id": "910",
-    "title": "移動用機器（燃料・電気必要）",
-    "level": 2,
-    "parentId": "900",
-    "level1Id": "900",
-    "level2Id": "910",
-    "energyFlag": "1"
-  },
-  {
-    "id": "911",
-    "title": "自動車",
-    "level": 3,
-    "parentId": "910",
-    "level1Id": "900",
-    "level2Id": "910",
-    "energyFlag": "1"
-  },
-  {
-    "id": "912",
-    "title": "オートバイ",
-    "level": 3,
-    "parentId": "910",
-    "level1Id": "900",
-    "level2Id": "910",
-    "energyFlag": "1"
-  },
-  {
-    "id": "913",
-    "title": "電動アシスト自転車",
-    "level": 3,
-    "parentId": "910",
-    "level1Id": "900",
-    "level2Id": "910",
-    "energyFlag": "1"
-  },
-  {
-    "id": "914",
-    "title": "特定小型車両",
-    "level": 3,
-    "parentId": "910",
-    "level1Id": "900",
-    "level2Id": "910",
-    "energyFlag": "1"
-  },
-  {
     "id": "930",
     "title": "自動車",
     "level": 2,
