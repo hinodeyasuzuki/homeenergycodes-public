@@ -1657,7 +1657,7 @@
   },
   {
     "id": "450",
-    "title": "カメラ・ビデオカメラ",
+    "title": "カメラ・光学機器",
     "level": 2,
     "parentId": "400",
     "level1Id": "400",
@@ -1694,6 +1694,33 @@
   {
     "id": "454",
     "title": "防犯カメラ",
+    "level": 3,
+    "parentId": "450",
+    "level1Id": "400",
+    "level2Id": "450",
+    "energyFlag": "1"
+  },
+  {
+    "id": "455",
+    "title": "望遠鏡",
+    "level": 3,
+    "parentId": "450",
+    "level1Id": "400",
+    "level2Id": "450",
+    "energyFlag": "1"
+  },
+  {
+    "id": "456",
+    "title": "双眼鏡",
+    "level": 3,
+    "parentId": "450",
+    "level1Id": "400",
+    "level2Id": "450",
+    "energyFlag": "1"
+  },
+  {
+    "id": "457",
+    "title": "顕微鏡",
     "level": 3,
     "parentId": "450",
     "level1Id": "400",
@@ -3078,6 +3105,15 @@
     "energyFlag": "2"
   },
   {
+    "id": "14",
+    "title": "玄関扉",
+    "level": 3,
+    "parentId": "10",
+    "level1Id": "0",
+    "level2Id": "10",
+    "energyFlag": "2"
+  },
+  {
     "id": "20",
     "title": "壁",
     "level": 2,
@@ -3259,12 +3295,12 @@
   },
   {
     "id": "70",
-    "title": "トイレ・洗面",
+    "title": "水回り",
     "level": 2,
     "parentId": "0",
     "level1Id": "0",
     "level2Id": "70",
-    "energyFlag": "1"
+    "energyFlag": "2"
   },
   {
     "id": "71",
@@ -3295,7 +3331,16 @@
   },
   {
     "id": "74",
-    "title": "温水水栓",
+    "title": "水栓（蛇口）",
+    "level": 3,
+    "parentId": "70",
+    "level1Id": "0",
+    "level2Id": "70",
+    "energyFlag": "2"
+  },
+  {
+    "id": "75",
+    "title": "シンク（台所）",
     "level": 3,
     "parentId": "70",
     "level1Id": "0",
@@ -3438,31 +3483,22 @@
     "energyFlag": "1"
   },
   {
-    "id": "920",
-    "title": "自転車",
-    "level": 2,
-    "parentId": "900",
-    "level1Id": "900",
-    "level2Id": "920",
-    "energyFlag": "2"
-  },
-  {
-    "id": "921",
-    "title": "自転車本体",
-    "level": 3,
-    "parentId": "920",
-    "level1Id": "900",
-    "level2Id": "920",
-    "energyFlag": "2"
-  },
-  {
     "id": "930",
-    "title": "自動車用品",
+    "title": "自動車",
     "level": 2,
     "parentId": "900",
     "level1Id": "900",
     "level2Id": "930",
     "energyFlag": "2"
+  },
+  {
+    "id": "935",
+    "title": "自動車本体",
+    "level": 3,
+    "parentId": "930",
+    "level1Id": "900",
+    "level2Id": "930",
+    "energyFlag": "1"
   },
   {
     "id": "931",
@@ -3502,12 +3538,21 @@
   },
   {
     "id": "940",
-    "title": "オートバイ用品",
+    "title": "オートバイ",
     "level": 2,
     "parentId": "900",
     "level1Id": "900",
     "level2Id": "940",
     "energyFlag": "2"
+  },
+  {
+    "id": "945",
+    "title": "オートバイ本体",
+    "level": 3,
+    "parentId": "940",
+    "level1Id": "900",
+    "level2Id": "940",
+    "energyFlag": "1"
   },
   {
     "id": "941",
@@ -3547,9 +3592,18 @@
   },
   {
     "id": "950",
-    "title": "自転車用品",
+    "title": "自転車",
     "level": 2,
     "parentId": "900",
+    "level1Id": "900",
+    "level2Id": "950",
+    "energyFlag": "2"
+  },
+  {
+    "id": "956",
+    "title": "自転車本体",
+    "level": 3,
+    "parentId": "950",
     "level1Id": "900",
     "level2Id": "950",
     "energyFlag": "2"
@@ -3598,5 +3652,32 @@
     "level1Id": "900",
     "level2Id": "950",
     "energyFlag": "2"
+  },
+  {
+    "id": "960",
+    "title": "その他移動用機器",
+    "level": 2,
+    "parentId": "900",
+    "level1Id": "900",
+    "level2Id": "960",
+    "energyFlag": "1"
+  },
+  {
+    "id": "961",
+    "title": "電動アシスト自転車",
+    "level": 3,
+    "parentId": "960",
+    "level1Id": "900",
+    "level2Id": "960",
+    "energyFlag": "1"
+  },
+  {
+    "id": "962",
+    "title": "特定小型車両",
+    "level": 3,
+    "parentId": "960",
+    "level1Id": "900",
+    "level2Id": "960",
+    "energyFlag": "1"
   }
 ]
