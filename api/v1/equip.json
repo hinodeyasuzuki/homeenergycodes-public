@@ -3564,6 +3564,15 @@
     "energyFlag": "2"
   },
   {
+    "id": "957",
+    "title": "電動アシスト自転車",
+    "level": 3,
+    "parentId": "950",
+    "level1Id": "900",
+    "level2Id": "950",
+    "energyFlag": "1"
+  },
+  {
     "id": "951",
     "title": "ヘルメット",
     "level": 3,
@@ -3619,15 +3628,6 @@
   },
   {
     "id": "961",
-    "title": "電動アシスト自転車",
-    "level": 3,
-    "parentId": "960",
-    "level1Id": "900",
-    "level2Id": "960",
-    "energyFlag": "1"
-  },
-  {
-    "id": "962",
     "title": "特定小型車両",
     "level": 3,
     "parentId": "960",
