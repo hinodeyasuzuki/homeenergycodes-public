@@ -27,6 +27,7 @@
 
 - 保存データの JSON Schema: `input/saved-input.schema.json`
 - 保存データの形式説明: `input/saved-input-format.md`
+- 機器マスタ(`equip.json`)は `api/v1/equips.txt` から生成します。編集後は `python3 scripts/build_equip.py` を実行してください。列の説明はスクリプト冒頭のコメントを参照。
 
 ## 使い方
 
