@@ -1279,6 +1279,28 @@
     ]
   },
   {
+    "id": "i084",
+    "title": "脱炭素電気の選択",
+    "cons": "consEnergy",
+    "unit": "",
+    "text": "再生可能エネルギーなど、CO2の少ない電気の料金プランを選んでいますか",
+    "inputType": "sel084",
+    "options": [
+      {
+        "disp": "選んで下さい",
+        "val": -1
+      },
+      {
+        "disp": "選んでいない",
+        "val": 0
+      },
+      {
+        "disp": "選んでいる",
+        "val": 1
+      }
+    ]
+  },
+  {
     "id": "i091",
     "title": "電気代",
     "cons": "consSeason",
